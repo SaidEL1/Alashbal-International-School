@@ -1,18 +1,40 @@
+# =============================================================================
+# Netlify — Alashbal International School
+# Site: https://alashbal-international-school.netlify.app
+# Custom domain (optional): https://www.aisdoha.net
+# =============================================================================
+
 [build]
-  command = "pnpm db:generate && pnpm build"
+  command = "corepack enable && pnpm install --frozen-lockfile && pnpm db:generate && pnpm build"
   publish = ".next"
 
 [build.environment]
   NODE_VERSION = "22"
   NEXT_TELEMETRY_DISABLED = "1"
-  # Required for Prisma client generation at build time (no DB connection needed)
+  NPM_FLAGS = "--version"
+  # Prisma client generation only (no live DB connection required)
   DATABASE_URL = "postgresql://build:build@localhost:5432/build"
+  NEXT_PUBLIC_WHATSAPP_NUMBER = "9744457882"
+
+# Production — Netlify subdomain (set site name to alashbal-international-school)
+[context.production.environment]
+  NEXT_PUBLIC_SITE_URL = "https://alashbal-international-school.netlify.app"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
-# Locale routing: redirect root to default locale
-[[redirects]]
-  from = "/"
-  to = "/en"
-  status = 302
+# Security headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+[[headers]]
+  for = "/_next/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Locale routing handled by next-intl middleware (no static redirect needed)

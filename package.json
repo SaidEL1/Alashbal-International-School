@@ -29,6 +29,7 @@
     "db:seed": "prisma db seed",
     "docker:up": "docker compose up -d",
     "docker:down": "docker compose down",
+    "deploy:netlify": "netlify deploy --prod",
     "prepare": "husky",
     "ci": "pnpm run format:check && pnpm run lint && pnpm run typecheck && pnpm run test && pnpm run build"
   },
