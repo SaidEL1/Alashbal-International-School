@@ -1,9 +1,7 @@
-import dynamic from "next/dynamic";
 import { getTranslations } from "next-intl/server";
-import { Cpu, FlaskConical, Globe, Languages, Users } from "lucide-react";
+import { FlaskConical, Globe, Languages, Users } from "lucide-react";
 
 import {
-  aiProgramKeys,
   cambridgeBenefitKeys,
   cambridgeFaqKeys,
   cambridgeStageKeys,
@@ -13,6 +11,7 @@ import {
   type AcademicProgramKey,
 } from "@/config/academics";
 import { ageBandHrefs } from "@/config/homepage";
+import { LazyGalleryGrid } from "@/features/gallery/components/LazyGalleryGrid";
 import { Breadcrumb } from "@/shared/components/Breadcrumb";
 import { CTABanner } from "@/shared/components/CTABanner";
 import { FeatureCard } from "@/shared/components/FeatureCard";
@@ -24,14 +23,8 @@ import { SectionHeader } from "@/shared/components/SectionHeader";
 import { SplitSection } from "@/shared/components/SplitSection";
 import { Timeline, type TimelineItem } from "@/shared/components/Timeline";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/ui/accordion";
-import { LazyGalleryGrid } from "@/features/gallery/components/LazyGalleryGrid";
-import { imagePaths } from "@/lib/images";
 import { placeholderGalleryImages } from "@/lib/gallery";
-
-const LazyVideoEmbed = dynamic(
-  () => import("@/shared/components/client/VideoEmbed").then((m) => m.VideoEmbed),
-  { loading: () => <div className="aspect-video animate-pulse rounded-xl bg-muted" /> },
-);
+import { imagePaths } from "@/lib/images";
 
 export async function AcademicsHubView(): Promise<React.JSX.Element> {
   const t = await getTranslations("academics.hub");
@@ -337,62 +330,6 @@ export async function StemView(): Promise<React.JSX.Element> {
         title={t("cta.title")}
         primaryLabel={t("cta.primary")}
         primaryHref="/admissions/book-a-tour"
-      />
-    </>
-  );
-}
-
-export async function AiRoboticsView(): Promise<React.JSX.Element> {
-  const t = await getTranslations("academics.aiRobotics");
-  const tHome = await getTranslations();
-
-  return (
-    <>
-      <Breadcrumb
-        items={[
-          { label: tHome("home.title"), href: "/" },
-          { label: tHome("nav.academics"), href: "/academics" },
-          { label: t("title") },
-        ]}
-        className="mx-auto max-w-container px-4 pt-6"
-      />
-      <section className="relative flex min-h-[50vh] items-end bg-primary-900">
-        <div className="absolute inset-0 opacity-40">
-          <OptimizedImage src={imagePaths.about.placeholder} alt={t("title")} fill sizes="100vw" />
-        </div>
-        <div className="relative mx-auto w-full max-w-container px-4 py-16">
-          <h1 className="font-display text-4xl font-semibold text-neutral-50 md:text-5xl">
-            {t("title")}
-          </h1>
-          <p className="mt-4 max-w-2xl text-lg text-neutral-200">{t("lead")}</p>
-        </div>
-      </section>
-      <section className="py-16">
-        <ProseContent className="mx-auto max-w-container px-4">
-          <p>{t("overview")}</p>
-        </ProseContent>
-      </section>
-      <section className="bg-neutral-50 py-16 dark:bg-neutral-950">
-        <div className="mx-auto grid max-w-container gap-6 px-4 sm:grid-cols-2">
-          {aiProgramKeys.map((key) => (
-            <FeatureCard
-              key={key}
-              icon={Cpu}
-              title={t(`programs.${key}.title`)}
-              description={t(`programs.${key}.description`)}
-            />
-          ))}
-        </div>
-      </section>
-      <section className="py-16">
-        <div className="mx-auto max-w-container px-4">
-          <LazyVideoEmbed title={t("videoTitle")} posterAlt={t("title")} />
-        </div>
-      </section>
-      <CTABanner
-        title={t("cta.title")}
-        primaryLabel={t("cta.primary")}
-        primaryHref="/admissions/inquire"
       />
     </>
   );

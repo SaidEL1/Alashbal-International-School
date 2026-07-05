@@ -10,7 +10,7 @@ export const siteConfig = {
     "https://www.aisdoha.net",
   email: "info@aisdoha.net",
   phone: "+974 4450 7882",
-  address: "Old Airport Area, E-ring Road, Doha, Qatar",
+  address: "Old Airport Area along E-ring Road, Doha, Qatar",
   locales: ["en", "ar", "fr"] as const,
   defaultLocale: "en" as const,
 };

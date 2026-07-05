@@ -2,10 +2,10 @@
 
 import { useTranslations } from "next-intl";
 
-import { siteConfig } from "@/config/site";
 import { Link } from "@/i18n/navigation";
 import { DarkModeToggle } from "@/shared/components/DarkModeToggle";
 import { LanguageSwitcher } from "@/shared/components/LanguageSwitcher";
+import { SchoolLogo } from "@/shared/components/SchoolLogo";
 import { Button } from "@/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -29,13 +29,7 @@ export function Navbar({ className }: NavbarProps): React.JSX.Element {
       <div className="mx-auto flex h-16 max-w-container items-center justify-between gap-4 px-4 lg:h-[72px]">
         <div className="flex items-center gap-3">
           <MobileDrawer />
-          <Link
-            href="/"
-            className="font-display text-lg font-semibold text-primary-900 dark:text-neutral-50 lg:text-xl"
-            aria-label={siteConfig.name}
-          >
-            {siteConfig.shortName}
-          </Link>
+          <SchoolLogo priority />
         </div>
 
         <nav aria-label="Main" className="hidden flex-1 justify-center lg:flex">

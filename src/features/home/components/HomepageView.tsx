@@ -1,4 +1,3 @@
-import dynamic from "next/dynamic";
 import { getTranslations } from "next-intl/server";
 
 import {
@@ -15,6 +14,7 @@ import { CTABanner } from "@/shared/components/CTABanner";
 import { FeatureCard } from "@/shared/components/FeatureCard";
 import { Hero } from "@/shared/components/Hero";
 import { OptimizedImage } from "@/shared/components/OptimizedImage";
+import { SchoolLogo } from "@/shared/components/SchoolLogo";
 import { ScrollReveal } from "@/shared/components/client/ScrollReveal";
 import { SectionHeader } from "@/shared/components/SectionHeader";
 import { SplitSection } from "@/shared/components/SplitSection";
@@ -22,11 +22,6 @@ import { TrustBar } from "@/shared/components/TrustBar";
 import { LazyStatCounterSection } from "@/features/home/components/StatCounterSection";
 import { LazyTestimonialSection } from "@/features/home/components/TestimonialSection";
 import { Button } from "@/ui/button";
-
-const LazyVideoEmbed = dynamic(
-  () => import("@/shared/components/client/VideoEmbed").then((m) => m.VideoEmbed),
-  { loading: () => <div className="aspect-video animate-pulse rounded-xl bg-muted" /> },
-);
 
 export async function HomepageView(): Promise<React.JSX.Element> {
   const t = await getTranslations("home");
@@ -157,8 +152,8 @@ export async function HomepageView(): Promise<React.JSX.Element> {
         className="bg-neutral-50 py-16 dark:bg-neutral-950 md:py-24"
       >
         <div className="mx-auto grid max-w-container items-center gap-10 px-4 lg:grid-cols-2 lg:gap-16">
-          <ScrollReveal>
-            <LazyVideoEmbed title={t("principal.videoTitle")} posterAlt={t("principal.imageAlt")} />
+          <ScrollReveal className="flex justify-center">
+            <SchoolLogo showLink={false} imageClassName="h-auto max-h-40 w-full max-w-md" />
           </ScrollReveal>
           <ScrollReveal delay={0.1}>
             <SectionHeader
@@ -169,6 +164,7 @@ export async function HomepageView(): Promise<React.JSX.Element> {
             <blockquote className="mt-6 border-s-4 border-secondary-500 ps-4 font-display text-xl italic text-primary-900 dark:text-neutral-50">
               {t("principal.quote")}
             </blockquote>
+            <p className="mt-6 leading-relaxed text-muted-foreground">{t("principal.body")}</p>
             <p className="mt-4 text-sm font-medium text-muted-foreground">{t("principal.name")}</p>
           </ScrollReveal>
         </div>

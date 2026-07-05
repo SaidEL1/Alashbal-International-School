@@ -48,6 +48,4 @@ export const cambridgeStageKeys = ["ey", "igcse", "alevel"] as const;
 
 export const stemCompetitionKeys = ["c1", "c2", "c3"] as const;
 
-export const aiProgramKeys = ["p1", "p2", "p3", "p4"] as const;
-
 export const languageKeys = ["en", "ar", "fr"] as const;

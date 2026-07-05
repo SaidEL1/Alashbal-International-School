@@ -64,7 +64,6 @@ export const megaMenuItems: NavItem[] = [
         items: [
           { labelKey: "nav.cambridgePathway", href: "/academics/cambridge-pathway" },
           { labelKey: "nav.stem", href: "/academics/stem" },
-          { labelKey: "nav.aiRobotics", href: "/academics/ai-robotics" },
           { labelKey: "nav.languages", href: "/academics/languages" },
         ],
       },
