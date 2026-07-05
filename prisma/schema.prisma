@@ -1,0 +1,40 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  ADMIN
+  EDITOR
+  ADMISSIONS
+  PARENT
+  TEACHER
+  STUDENT
+}
+
+model User {
+  id            String    @id @default(uuid())
+  email         String    @unique
+  name          String
+  role          Role      @default(PARENT)
+  image         String?
+  passwordHash  String?   @map("password_hash")
+  emailVerified DateTime? @map("email_verified")
+  createdAt     DateTime  @default(now()) @map("created_at")
+  updatedAt     DateTime  @updatedAt @map("updated_at")
+
+  @@map("users")
+}
+
+model Setting {
+  id        String   @id @default(uuid())
+  key       String   @unique
+  value     Json
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@map("settings")
+}

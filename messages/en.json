@@ -1,0 +1,1147 @@
+{
+  "common": {
+    "siteName": "Alashbal International School",
+    "tagline": "Young Achievers of Today, Global Leaders of Tomorrow",
+    "skipToContent": "Skip to main content",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "toggleTheme": "Toggle dark mode",
+    "lightMode": "Light mode",
+    "darkMode": "Dark mode",
+    "language": "Language",
+    "english": "English",
+    "arabic": "العربية",
+    "comingSoon": "Content coming in a future sprint.",
+    "bookTour": "Book a Tour",
+    "inquireNow": "Inquire Now",
+    "acceptCookies": "Accept cookies",
+    "cookieMessage": "We use cookies to improve your experience and analyse site traffic.",
+    "learnMore": "Learn more",
+    "notFoundTitle": "Page not found",
+    "notFoundDescription": "The page you are looking for does not exist or has been moved.",
+    "notFoundCta": "Return home",
+    "errorTitle": "Something went wrong",
+    "errorDescription": "An unexpected error occurred. Please try again.",
+    "errorCta": "Try again"
+  },
+  "utility": {
+    "parentPortal": "Parent Portal",
+    "careers": "Careers",
+    "downloads": "Downloads"
+  },
+  "nav": {
+    "about": "About",
+    "academics": "Academics",
+    "admissions": "Admissions",
+    "studentLife": "Student Life",
+    "news": "News",
+    "contact": "Contact",
+    "ourStory": "Our Story",
+    "missionVision": "Mission & Vision",
+    "leadership": "Leadership",
+    "accreditations": "Accreditations",
+    "campus": "Campus & Facilities",
+    "virtualTour": "Virtual Tour",
+    "earlyYears": "Early Years",
+    "primary": "Primary",
+    "middleSchool": "Middle School",
+    "highSchool": "High School",
+    "cambridgePathway": "Cambridge Pathway",
+    "stem": "STEM",
+    "aiRobotics": "AI & Robotics",
+    "languages": "Languages",
+    "howToApply": "How to Apply",
+    "tuitionFees": "Tuition & Fees",
+    "inquireNow": "Inquire Now",
+    "bookTour": "Book a Tour",
+    "applyOnline": "Apply Online",
+    "faqs": "FAQs",
+    "ageGuide": "Age Guide",
+    "relocating": "Relocating to Qatar",
+    "clubs": "Clubs & Activities",
+    "sports": "Sports",
+    "events": "Events",
+    "gallery": "Gallery"
+  },
+  "footer": {
+    "about": "About",
+    "academics": "Academics",
+    "admissions": "Admissions",
+    "connect": "Connect",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "rights": "All rights reserved.",
+    "address": "Old Airport Area, E-ring Road, Doha, Qatar"
+  },
+  "trust": {
+    "ariaLabel": "Accreditations and quality assurance partners",
+    "cambridge": {
+      "alt": "Cambridge Assessment International Education",
+      "description": "Registered Cambridge International School delivering IGCSE and A Level programmes."
+    },
+    "moe": {
+      "alt": "Ministry of Education and Higher Education, Qatar",
+      "description": "Licensed and regulated by the State of Qatar Ministry of Education."
+    },
+    "cis": {
+      "alt": "Council of International Schools",
+      "description": "Member of the global community of internationally minded schools."
+    },
+    "quality": {
+      "alt": "School quality assurance",
+      "description": "Committed to continuous improvement through rigorous internal and external review."
+    }
+  },
+  "home": {
+    "title": "Home",
+    "shellNotice": "Platform shell ready. Homepage content ships in Sprint 2.",
+    "meta": {
+      "title": "Alashbal International School | Cambridge School in Doha, Qatar",
+      "description": "AIS Doha is a Cambridge-accredited international school in Doha offering Early Years through A Levels. Book a tour and discover future-ready learning."
+    },
+    "hero": {
+      "title": "Inspiring Young Achievers, Shaping Global Leaders",
+      "subtitle": "Cambridge International School · Doha, Qatar",
+      "lead": "At Alashbal International School, we nurture curiosity, character, and confidence in a vibrant multicultural community—preparing every learner for success at university and beyond.",
+      "imageAlt": "Students learning collaboratively at Alashbal International School campus in Doha",
+      "primaryCta": "Book a Tour",
+      "secondaryCta": "Inquire Now"
+    },
+    "pillars": {
+      "title": "Why Families Choose AIS Doha",
+      "subtitle": "Four foundations that define our approach to international education.",
+      "items": {
+        "0": {
+          "title": "Academic Excellence",
+          "description": "Rigorous Cambridge programmes, expert teachers, and personalised learning pathways that help every student reach their full potential."
+        },
+        "1": {
+          "title": "Global Citizenship",
+          "description": "A diverse community of 45+ nationalities where students develop empathy, cultural awareness, and the skills to thrive anywhere in the world."
+        },
+        "2": {
+          "title": "Innovation & STEM",
+          "description": "Future-ready learning through robotics, coding, AI, and enquiry-based projects that connect classroom knowledge to real-world challenges."
+        },
+        "3": {
+          "title": "Wellbeing & Character",
+          "description": "Pastoral care, leadership opportunities, and a safe, inclusive environment where children feel known, valued, and inspired to grow."
+        }
+      }
+    },
+    "journey": {
+      "title": "Your Child's Learning Journey",
+      "subtitle": "A seamless Cambridge pathway from first steps to university preparation.",
+      "bands": {
+        "0": {
+          "title": "Early Years",
+          "ages": "Ages 3–5",
+          "description": "Play-based learning that builds language, social skills, and a love of discovery in a nurturing setting."
+        },
+        "1": {
+          "title": "Primary",
+          "ages": "Ages 5–11",
+          "description": "Strong foundations in literacy, numeracy, and enquiry through the Cambridge Primary curriculum."
+        },
+        "2": {
+          "title": "Middle School",
+          "ages": "Ages 11–14",
+          "description": "Broad, balanced learning that develops critical thinking, independence, and subject depth."
+        },
+        "3": {
+          "title": "High School",
+          "ages": "Ages 14–18",
+          "description": "IGCSE and A Level programmes with dedicated university and careers guidance."
+        },
+        "4": {
+          "title": "Cambridge Pathway",
+          "ages": "Ages 5–18",
+          "description": "One coherent international framework from primary through to advanced qualifications."
+        }
+      }
+    },
+    "cambridge": {
+      "title": "The Cambridge Advantage",
+      "subtitle": "World-class qualifications recognised by leading universities worldwide.",
+      "body": "As a registered Cambridge International School, AIS Doha delivers the full Cambridge pathway—from Primary through IGCSE to A Level. Our students benefit from internationally benchmarked assessments, enquiry-led teaching, and qualifications that open doors to top universities in the UK, US, Europe, and beyond.",
+      "imageAlt": "Cambridge curriculum resources and students engaged in collaborative study"
+    },
+    "principal": {
+      "title": "A Message from Our Principal",
+      "subtitle": "Welcome to the AIS Doha community",
+      "quote": "Every child who walks through our gates brings unique gifts and aspirations. Our role is to challenge them academically, support them pastorally, and inspire them to lead with integrity in an interconnected world.",
+      "name": "Dr. Sarah Mitchell, Principal",
+      "videoTitle": "Welcome message from the Principal",
+      "imageAlt": "Principal of Alashbal International School addressing the school community"
+    },
+    "stats": {
+      "years": {
+        "value": "18",
+        "suffix": "+",
+        "label": "Years of Excellence"
+      },
+      "nationalities": {
+        "value": "45",
+        "suffix": "+",
+        "label": "Nationalities"
+      },
+      "students": {
+        "value": "1200",
+        "suffix": "+",
+        "label": "Students"
+      },
+      "ratio": {
+        "value": "12",
+        "suffix": ":1",
+        "label": "Student–Teacher Ratio"
+      }
+    },
+    "testimonials": {
+      "title": "What Our Community Says",
+      "ariaLabel": "Parent and student testimonials",
+      "t1": {
+        "quote": "From the moment we visited AIS Doha, we felt the warmth and professionalism of the community. Our daughter has flourished academically and socially.",
+        "author": "Fatima Al-Kuwari",
+        "role": "Parent, Year 6"
+      },
+      "t2": {
+        "quote": "The Cambridge programme and dedicated teachers prepared me thoroughly for A Levels. I received offers from my top-choice universities in the UK.",
+        "author": "James Okonkwo",
+        "role": "AIS Graduate, Class of 2025"
+      },
+      "t3": {
+        "quote": "AIS Doha strikes the perfect balance between high academic standards and genuine care for each child. We could not have chosen a better school for our family.",
+        "author": "Priya and Raj Sharma",
+        "role": "Parents, Early Years & Year 3"
+      }
+    },
+    "cta": {
+      "title": "Ready to Discover AIS Doha?",
+      "description": "Visit our campus, meet our team, and see how we inspire the next generation of leaders.",
+      "primary": "Book a Tour",
+      "secondary": "Inquire Now"
+    },
+    "stem": {
+      "title": "Innovation Through STEM",
+      "subtitle": "Future-ready learning from Early Years to A Level",
+      "body": "At AIS Doha, STEM is woven into every stage of the Cambridge pathway. Our dedicated Innovation Hub, robotics lab, and enquiry-led projects help students think critically, solve real problems, and develop the digital fluency demanded by top universities and employers worldwide.",
+      "imageAlt": "Students programming robots and conducting science experiments in the AIS Doha Innovation Hub",
+      "cta": "Explore STEM Programmes"
+    },
+    "galleryPreview": {
+      "title": "Life at AIS Doha",
+      "subtitle": "A vibrant community where learning extends beyond the classroom.",
+      "g1": "Students collaborating on a Cambridge science project",
+      "g2": "Early Years learners exploring outdoors in a shaded play area",
+      "g3": "Football match on the school pitch during inter-house sports",
+      "g4": "Cultural celebration with students in traditional dress"
+    }
+  },
+  "about": {
+    "story": {
+      "title": "Our Story",
+      "lead": "Nearly two decades of excellence in international education, rooted in Doha and connected to the world.",
+      "metaDescription": "Discover the history of Alashbal International School—Cambridge-accredited education in Doha, Qatar since 2008.",
+      "paragraph1": "Founded in 2008, Alashbal International School (AIS Doha) was established with a clear vision: to provide world-class Cambridge education in the heart of Qatar's capital. What began as a small community school has grown into one of Doha's most respected international institutions, welcoming families from more than 45 nationalities.",
+      "paragraph2": "Our name—Alashbal, meaning \"young cubs\"—reflects our belief that every child has the potential to grow into a confident, capable leader. Today, our purpose-built campus in the Old Airport Area combines modern facilities with a warm, family-centred culture, where students are challenged to excel and supported to thrive.",
+      "timeline": {
+        "2008": {
+          "title": "School Founded",
+          "description": "AIS Doha opens its doors with a commitment to Cambridge international education and a multicultural learning community."
+        },
+        "2012": {
+          "title": "Cambridge Registration",
+          "description": "Official registration as a Cambridge International School, offering Primary, IGCSE, and A Level programmes."
+        },
+        "2018": {
+          "title": "Campus Expansion",
+          "description": "Major campus development including new science laboratories, sports facilities, and dedicated Early Years wing."
+        },
+        "2022": {
+          "title": "Innovation Hub Launch",
+          "description": "Opening of STEM and AI/Robotics facilities, embedding future-ready skills across the curriculum."
+        },
+        "2026": {
+          "title": "Looking Ahead",
+          "description": "Continuing to invest in teaching excellence, wellbeing, and pathways that prepare students for a changing world."
+        }
+      },
+      "stats": {
+        "years": "Years of Excellence",
+        "nationalities": "Nationalities Represented",
+        "students": "Students Enrolled",
+        "ratio": "Average Class Size"
+      },
+      "cta": {
+        "title": "Experience AIS Doha for Yourself",
+        "primary": "Book a Campus Tour"
+      }
+    },
+    "mission": {
+      "title": "Mission & Vision",
+      "lead": "The principles that guide every decision, lesson, and interaction at AIS Doha.",
+      "metaDescription": "Our mission, vision, and core values at Alashbal International School—a Cambridge school committed to excellence in Doha, Qatar.",
+      "mission": {
+        "title": "Our Mission",
+        "body": "To deliver outstanding Cambridge education that develops knowledgeable, principled, and compassionate young people who contribute positively to Qatar and the global community."
+      },
+      "vision": {
+        "title": "Our Vision",
+        "body": "To be the international school of choice in Doha—recognised for academic excellence, innovation, and a culture where every learner is empowered to achieve their personal best."
+      },
+      "values": {
+        "title": "Our Core Values",
+        "integrity": {
+          "title": "Integrity",
+          "body": "We act with honesty, fairness, and moral courage in all we do."
+        },
+        "excellence": {
+          "title": "Excellence",
+          "body": "We pursue the highest standards in teaching, learning, and personal conduct."
+        },
+        "innovation": {
+          "title": "Innovation",
+          "body": "We embrace creativity, enquiry, and new ideas to prepare students for the future."
+        },
+        "community": {
+          "title": "Community",
+          "body": "We build strong partnerships among students, families, and staff in a spirit of belonging."
+        },
+        "respect": {
+          "title": "Respect",
+          "body": "We celebrate diversity and treat every individual with dignity and care."
+        }
+      },
+      "cta": {
+        "title": "Join a School Built on Purpose",
+        "primary": "Inquire Now"
+      }
+    },
+    "leadership": {
+      "title": "Leadership Team",
+      "lead": "Experienced educators dedicated to the success and wellbeing of every AIS Doha student.",
+      "metaDescription": "Meet the leadership team at Alashbal International School—experienced educators guiding Cambridge excellence in Doha, Qatar.",
+      "head": {
+        "name": "Dr. Sarah Mitchell",
+        "role": "Principal",
+        "bio": "Dr. Mitchell brings over 20 years of international school leadership experience across the UK and the Middle East. She holds a doctorate in Educational Leadership and is passionate about creating inclusive, high-performing learning communities.",
+        "imageAlt": "Dr. Sarah Mitchell, Principal of Alashbal International School"
+      },
+      "team": {
+        "deputy": {
+          "name": "Mr. Ahmed Hassan",
+          "role": "Deputy Principal – Academic",
+          "imageAlt": "Mr. Ahmed Hassan, Deputy Principal"
+        },
+        "primary": {
+          "name": "Ms. Emma Richardson",
+          "role": "Head of Primary",
+          "imageAlt": "Ms. Emma Richardson, Head of Primary"
+        },
+        "secondary": {
+          "name": "Mr. David Chen",
+          "role": "Head of Secondary",
+          "imageAlt": "Mr. David Chen, Head of Secondary"
+        },
+        "admissions": {
+          "name": "Ms. Layla Al-Mansouri",
+          "role": "Director of Admissions",
+          "imageAlt": "Ms. Layla Al-Mansouri, Director of Admissions"
+        },
+        "wellbeing": {
+          "name": "Mrs. Catherine O'Brien",
+          "role": "Head of Pastoral Care & Wellbeing",
+          "imageAlt": "Mrs. Catherine O'Brien, Head of Pastoral Care"
+        }
+      },
+      "welcome": "On behalf of our entire leadership team, I warmly welcome you to Alashbal International School. We invite you to visit our campus, meet our teachers, and discover the AIS difference—a place where ambition meets belonging, and every child is known by name.",
+      "cta": {
+        "title": "Meet Our Team in Person",
+        "primary": "Book a Tour"
+      }
+    },
+    "accreditations": {
+      "title": "Accreditations & Quality Assurance",
+      "lead": "Recognised standards that affirm the quality and integrity of an AIS Doha education.",
+      "metaDescription": "Learn about AIS Doha's Cambridge registration, Ministry of Education licensing, and commitment to international school quality standards.",
+      "cambridge": {
+        "title": "Cambridge Assessment International Education",
+        "body": "AIS Doha is a fully registered Cambridge International School. We deliver the Cambridge Primary, Lower Secondary, IGCSE, and A Level programmes—qualifications recognised and valued by universities and employers in more than 160 countries.",
+        "imageAlt": "Cambridge Assessment International Education accreditation"
+      },
+      "moe": {
+        "title": "Ministry of Education & Higher Education, Qatar",
+        "body": "Our school operates under the licence and oversight of the State of Qatar Ministry of Education and Higher Education, ensuring compliance with national regulations and standards for private international schools."
+      },
+      "quality": "Beyond formal accreditation, AIS Doha maintains a culture of continuous improvement. We conduct regular self-evaluation, welcome external review, and invest in professional development so that our teaching and pastoral care remain at the highest international standard.",
+      "cta": {
+        "title": "Questions About Our Programmes?",
+        "primary": "Inquire Now"
+      }
+    },
+    "campus": {
+      "title": "Campus & Facilities",
+      "lead": "A purpose-built learning environment designed for discovery, collaboration, and wellbeing.",
+      "metaDescription": "Explore the AIS Doha campus—modern classrooms, science labs, sports facilities, and creative spaces in Doha, Qatar.",
+      "heroImageAlt": "Aerial view of Alashbal International School campus in Doha",
+      "overview": "Located in the Old Airport Area on E-ring Road, our campus spans over 40,000 square metres of thoughtfully designed indoor and outdoor spaces. From light-filled classrooms to specialist laboratories and recreational facilities, every area supports the Cambridge curriculum and the holistic development of our students.",
+      "facilities": {
+        "library": {
+          "title": "Learning Resource Centre",
+          "description": "A vibrant hub with 15,000+ volumes, digital resources, and quiet study zones for research and independent reading.",
+          "imageAlt": "School library with students reading and studying"
+        },
+        "labs": {
+          "title": "Science & Technology Labs",
+          "description": "Fully equipped laboratories for biology, chemistry, physics, and computing with industry-standard equipment.",
+          "imageAlt": "Students conducting experiments in a modern science laboratory"
+        },
+        "sports": {
+          "title": "Sports Complex",
+          "description": "Indoor multi-purpose hall, outdoor courts, and a full-size football pitch for PE and competitive teams.",
+          "imageAlt": "Students playing sports on the school pitch and courts"
+        },
+        "arts": {
+          "title": "Creative Arts Studios",
+          "description": "Dedicated spaces for visual art, music, and drama with performance and exhibition areas.",
+          "imageAlt": "Art studio with students working on creative projects"
+        },
+        "cafeteria": {
+          "title": "Dining Hall",
+          "description": "Spacious cafeteria serving nutritious, culturally diverse meals with halal options daily.",
+          "imageAlt": "School cafeteria with students enjoying lunch"
+        },
+        "pool": {
+          "title": "Swimming Pool",
+          "description": "Temperature-controlled pool for swim lessons, squad training, and recreational use.",
+          "imageAlt": "School swimming pool used for lessons and training"
+        },
+        "playground": {
+          "title": "Outdoor Play Areas",
+          "description": "Age-appropriate playgrounds and shaded outdoor learning spaces for Early Years and Primary.",
+          "imageAlt": "Children playing in a shaded outdoor playground"
+        },
+        "auditorium": {
+          "title": "Auditorium",
+          "description": "300-seat auditorium for assemblies, performances, parent events, and guest speakers.",
+          "imageAlt": "School auditorium during a student performance"
+        }
+      },
+      "gallery": {
+        "g1": "Students collaborating in a bright classroom",
+        "g2": "Cambridge lesson in progress",
+        "g3": "Sports day on the school field",
+        "g4": "Science fair exhibition",
+        "g5": "Early Years outdoor learning",
+        "g6": "Graduation ceremony in the auditorium"
+      },
+      "virtualTour": {
+        "title": "Explore Our Campus Virtually",
+        "description": "Take a guided 360° tour of our classrooms, labs, and facilities from anywhere in the world.",
+        "cta": "Start Virtual Tour"
+      },
+      "map": {
+        "title": "Find Us in Doha",
+        "loadLabel": "Load interactive map"
+      },
+      "cta": {
+        "title": "See Our Campus in Person",
+        "primary": "Book a Tour"
+      }
+    }
+  },
+  "academics": {
+    "shared": {
+      "scheduleTitle": "A Day in the Life",
+      "stagesTitle": "Cambridge Pathway Stages",
+      "faqTitle": "Frequently Asked Questions",
+      "ageBandsTitle": "Programmes by Age",
+      "beyondTitle": "Beyond the Classroom"
+    },
+    "hub": {
+      "title": "Academics",
+      "lead": "A coherent Cambridge pathway from first steps to university preparation—delivered by expert teachers in a supportive, multicultural environment.",
+      "metaDescription": "Explore AIS Doha's Cambridge academic programmes—Early Years through A Level, STEM, languages, and personalised learning support in Doha, Qatar.",
+      "philosophy": "We believe every learner deserves a challenging, inclusive education that develops knowledge, character, and confidence. Our enquiry-led approach connects rigorous Cambridge standards with the creativity, collaboration, and critical thinking students need to thrive in a changing world.",
+      "beyondAcademics": {
+        "stem": {
+          "title": "STEM & Innovation",
+          "description": "Robotics, coding, science fairs, and design challenges that bring classroom concepts to life and inspire the next generation of innovators."
+        },
+        "languages": {
+          "title": "Languages & Culture",
+          "description": "A multilingual community offering English-medium instruction alongside Arabic, French, and dedicated Islamic Studies in line with Qatar's cultural values."
+        },
+        "support": {
+          "title": "Learning Support",
+          "description": "Personalised pathways, EAL provision, and pastoral care ensure every student is known, supported, and empowered to reach their personal best."
+        }
+      },
+      "cta": {
+        "title": "Find the Right Programme for Your Child",
+        "primary": "Book a Tour"
+      }
+    },
+    "programs": {
+      "earlyYears": {
+        "title": "Early Years",
+        "badge": "Ages 3–5",
+        "lead": "A nurturing, play-based foundation where curiosity, language, and confidence take root.",
+        "metaDescription": "AIS Doha Early Years programme for ages 3–5—play-based Cambridge learning in a safe, multicultural setting in Doha, Qatar.",
+        "overview": "Our Early Years setting provides a warm, stimulating environment where children learn through exploration, play, and guided enquiry. Experienced early childhood educators deliver a Cambridge-aligned curriculum that builds literacy, numeracy, social skills, and a genuine love of learning—preparing every child for a seamless transition to Primary.",
+        "curriculum": {
+          "0": {
+            "title": "Communication & Language",
+            "description": "Rich language experiences through stories, songs, role play, and daily conversations in English and Arabic."
+          },
+          "1": {
+            "title": "Literacy & Numeracy Foundations",
+            "description": "Phonics, early reading, counting, and problem-solving through hands-on, age-appropriate activities."
+          },
+          "2": {
+            "title": "Personal, Social & Emotional Development",
+            "description": "Building independence, empathy, and resilience in a caring community where every child feels safe and valued."
+          },
+          "3": {
+            "title": "Understanding the World",
+            "description": "Science, technology, and cultural exploration through outdoor learning, experiments, and creative projects."
+          }
+        },
+        "schedule": {
+          "0": {
+            "year": "FS1",
+            "title": "Foundation Stage 1 (Ages 3–4)",
+            "description": "Gentle introduction to structured learning with emphasis on play, routines, and social development."
+          },
+          "1": {
+            "year": "FS2",
+            "title": "Foundation Stage 2 (Ages 4–5)",
+            "description": "Building readiness for Primary through phonics, early writing, numeracy, and collaborative projects."
+          },
+          "2": {
+            "year": "Daily",
+            "title": "Balanced Daily Rhythm",
+            "description": "A mix of guided learning, free play, outdoor time, specialist sessions, and rest periods tailored to young learners."
+          },
+          "3": {
+            "year": "Specialist",
+            "title": "Specialist Enrichment",
+            "description": "Music, physical education, library visits, and Arabic language sessions integrated throughout the week."
+          },
+          "4": {
+            "year": "Transition",
+            "title": "Primary Readiness",
+            "description": "Structured transition activities and parent partnerships ensure a confident move into Year 1."
+          }
+        },
+        "gallery": {
+          "g1": "Early Years children engaged in sensory play",
+          "g2": "Outdoor learning in the shaded Early Years garden",
+          "g3": "Story time in a bright Foundation Stage classroom",
+          "g4": "Creative art activity with teacher guidance"
+        },
+        "cta": {
+          "title": "Visit Our Early Years Setting",
+          "primary": "Book a Tour"
+        },
+        "prevLabel": "",
+        "nextLabel": "Primary Programme"
+      },
+      "primary": {
+        "title": "Primary",
+        "badge": "Ages 5–11",
+        "lead": "Strong foundations in literacy, numeracy, and enquiry through the Cambridge Primary curriculum.",
+        "metaDescription": "Cambridge Primary at AIS Doha for ages 5–11—rigorous, enquiry-led learning with specialist subjects and pastoral care in Doha, Qatar.",
+        "overview": "Primary at AIS Doha delivers the Cambridge Primary programme across Years 1–6. Students develop deep subject knowledge, critical thinking, and study habits through engaging, enquiry-based lessons. Specialist teachers in science, computing, PE, music, and languages enrich the core curriculum, while form tutors provide daily pastoral support.",
+        "curriculum": {
+          "0": {
+            "title": "English & Mathematics",
+            "description": "Cambridge Primary frameworks building fluency, reasoning, and problem-solving from Year 1 through Year 6."
+          },
+          "1": {
+            "title": "Science & Computing",
+            "description": "Hands-on investigations, digital literacy, and coding foundations in dedicated labs and classrooms."
+          },
+          "2": {
+            "title": "Humanities & Languages",
+            "description": "History, geography, Arabic, French, and global perspectives that develop cultural awareness and communication skills."
+          },
+          "3": {
+            "title": "Creative & Physical Education",
+            "description": "Art, music, drama, and PE fostering creativity, teamwork, and healthy, active lifestyles."
+          }
+        },
+        "schedule": {
+          "0": {
+            "year": "Years 1–2",
+            "title": "Key Stage 1",
+            "description": "Building core literacy and numeracy with increasing independence and collaborative project work."
+          },
+          "1": {
+            "year": "Years 3–4",
+            "title": "Lower Key Stage 2",
+            "description": "Broadening subject depth, research skills, and cross-curricular connections across the curriculum."
+          },
+          "2": {
+            "year": "Years 5–6",
+            "title": "Upper Key Stage 2",
+            "description": "Preparation for Lower Secondary with Cambridge Checkpoint assessments and enhanced study skills."
+          },
+          "3": {
+            "year": "Assessment",
+            "title": "Cambridge Progression",
+            "description": "Regular formative assessment and Cambridge Primary Checkpoint in Year 6 to benchmark international standards."
+          },
+          "4": {
+            "year": "Beyond",
+            "title": "Enrichment & Leadership",
+            "description": "House system, student council, clubs, and community service opportunities from Year 3 onwards."
+          }
+        },
+        "gallery": {
+          "g1": "Primary students working on a collaborative maths activity",
+          "g2": "Science experiment in the Primary laboratory",
+          "g3": "Music lesson with instruments in the arts studio",
+          "g4": "Sports day relay race on the school field"
+        },
+        "cta": {
+          "title": "Discover Primary at AIS Doha",
+          "primary": "Inquire Now"
+        },
+        "prevLabel": "Early Years",
+        "nextLabel": "Middle School"
+      },
+      "middleSchool": {
+        "title": "Middle School",
+        "badge": "Ages 11–14",
+        "lead": "Broad, balanced learning that develops critical thinking, independence, and subject depth.",
+        "metaDescription": "AIS Doha Middle School for ages 11–14—Cambridge Lower Secondary with specialist teaching, wellbeing support, and pathway guidance in Doha.",
+        "overview": "Our Middle School bridges Primary and High School with the Cambridge Lower Secondary programme. Students in Years 7–9 explore a wide range of subjects taught by specialist teachers, developing the study skills, self-management, and intellectual curiosity needed for IGCSE success. Pastoral tutors and counsellors support wellbeing and subject choices throughout.",
+        "curriculum": {
+          "0": {
+            "title": "Core Subjects",
+            "description": "English, mathematics, and science taught to Cambridge Lower Secondary standards with regular assessment."
+          },
+          "1": {
+            "title": "Humanities & Languages",
+            "description": "History, geography, Arabic, French, and global perspectives developing analytical and communication skills."
+          },
+          "2": {
+            "title": "Creative & Technical",
+            "description": "Art, design technology, computing, music, and drama fostering innovation and self-expression."
+          },
+          "3": {
+            "title": "Wellbeing & Enrichment",
+            "description": "PE, PSHE, leadership programmes, and extracurricular activities supporting holistic development."
+          }
+        },
+        "schedule": {
+          "0": {
+            "year": "Year 7",
+            "title": "Transition & Exploration",
+            "description": "Settling into secondary routines, specialist teaching, and a broad curriculum across all subject areas."
+          },
+          "1": {
+            "year": "Year 8",
+            "title": "Deepening Knowledge",
+            "description": "Increased subject depth, extended projects, and developing independent study habits."
+          },
+          "2": {
+            "year": "Year 9",
+            "title": "IGCSE Preparation",
+            "description": "Introduction to IGCSE concepts, options guidance, and Cambridge Lower Secondary Checkpoint assessments."
+          },
+          "3": {
+            "year": "Pastoral",
+            "title": "Tutor & House System",
+            "description": "Daily tutor time, house competitions, and peer mentoring fostering belonging and responsibility."
+          },
+          "4": {
+            "year": "Beyond",
+            "title": "Clubs & Competitions",
+            "description": "STEM clubs, Model UN, sports teams, and academic competitions available across Middle School."
+          }
+        },
+        "gallery": {
+          "g1": "Middle School students in a geography classroom discussion",
+          "g2": "Design technology workshop with student projects",
+          "g3": "Debate club preparing for an inter-school competition",
+          "g4": "Basketball practice in the indoor sports hall"
+        },
+        "cta": {
+          "title": "Learn About Middle School",
+          "primary": "Book a Tour"
+        },
+        "prevLabel": "Primary",
+        "nextLabel": "High School"
+      },
+      "highSchool": {
+        "title": "High School",
+        "badge": "Ages 14–18",
+        "lead": "IGCSE and A Level programmes with dedicated university and careers guidance.",
+        "metaDescription": "AIS Doha High School—Cambridge IGCSE and A Level programmes, university counselling, and leadership opportunities in Doha, Qatar.",
+        "overview": "High School at AIS Doha prepares students for top universities worldwide through Cambridge IGCSE (Years 10–11) and A Level (Years 12–13) programmes. Expert subject teachers, small class sizes, and a dedicated university counsellor support every student in achieving their academic goals and building a compelling application profile.",
+        "curriculum": {
+          "0": {
+            "title": "IGCSE Programme",
+            "description": "A broad suite of Cambridge IGCSE subjects with flexible options across sciences, humanities, languages, and creative arts."
+          },
+          "1": {
+            "title": "A Level Programme",
+            "description": "In-depth study in three or four A Level subjects, developing the specialist knowledge universities expect."
+          },
+          "2": {
+            "title": "Extended Project & Research",
+            "description": "Independent research, extended essays, and EPQ-style projects demonstrating intellectual maturity."
+          },
+          "3": {
+            "title": "University & Careers Guidance",
+            "description": "Personalised counselling, SAT/UCAS support, internships, and alumni mentoring from Year 10 onwards."
+          }
+        },
+        "schedule": {
+          "0": {
+            "year": "Year 10",
+            "title": "IGCSE Year 1",
+            "description": "Core and optional IGCSE courses begin with structured revision and assessment throughout the year."
+          },
+          "1": {
+            "year": "Year 11",
+            "title": "IGCSE Year 2",
+            "description": "Completion of IGCSE syllabi, mock examinations, and Cambridge IGCSE examinations in May/June."
+          },
+          "2": {
+            "year": "Year 12",
+            "title": "A Level Year 1 (AS)",
+            "description": "Specialist A Level study begins with increasing depth, research, and university exploration."
+          },
+          "3": {
+            "year": "Year 13",
+            "title": "A Level Year 2",
+            "description": "Final A Level preparation, university applications, and Cambridge A Level examinations."
+          },
+          "4": {
+            "year": "Leadership",
+            "title": "Prefects & Community",
+            "description": "Head Boy/Girl team, peer mentoring, charity initiatives, and senior student leadership roles."
+          }
+        },
+        "gallery": {
+          "g1": "A Level chemistry students in the senior science lab",
+          "g2": "University fair with students meeting international recruiters",
+          "g3": "Graduation ceremony on stage in the auditorium",
+          "g4": "Senior students collaborating on an extended research project"
+        },
+        "cta": {
+          "title": "Prepare for University Success",
+          "primary": "Inquire Now"
+        },
+        "prevLabel": "Middle School",
+        "nextLabel": ""
+      }
+    },
+    "cambridge": {
+      "title": "Cambridge Pathway",
+      "lead": "One coherent international framework from Primary through to advanced qualifications—recognised by universities in over 160 countries.",
+      "metaDescription": "Learn about the Cambridge pathway at AIS Doha—Primary, IGCSE, and A Level programmes delivered by a registered Cambridge International School in Qatar.",
+      "overview": "As a fully registered Cambridge International School, AIS Doha delivers the complete Cambridge pathway. This internationally benchmarked framework provides seamless progression from Cambridge Primary through Lower Secondary, IGCSE, and A Level—giving students qualifications that are valued by leading universities and employers worldwide.",
+      "stages": {
+        "ey": {
+          "title": "Early Years & Primary",
+          "description": "Cambridge Primary builds strong foundations in English, mathematics, and science with Checkpoint assessments in Year 6."
+        },
+        "igcse": {
+          "title": "IGCSE (Years 10–11)",
+          "description": "Globally recognised qualifications offering flexible subject choices and rigorous external examinations."
+        },
+        "alevel": {
+          "title": "A Level (Years 12–13)",
+          "description": "Advanced qualifications providing the depth of study required for competitive university entry worldwide."
+        }
+      },
+      "benefits": {
+        "b1": {
+          "title": "Global Recognition",
+          "description": "Cambridge qualifications are accepted by universities in the UK, US, Europe, Australia, and across the Middle East."
+        },
+        "b2": {
+          "title": "Enquiry-Led Learning",
+          "description": "Students develop as independent thinkers who analyse, evaluate, and apply knowledge—not just memorise it."
+        },
+        "b3": {
+          "title": "Flexible Pathways",
+          "description": "A wide range of IGCSE and A Level subjects allows students to pursue their strengths and career aspirations."
+        },
+        "b4": {
+          "title": "Rigorous Assessment",
+          "description": "Externally set and marked examinations ensure standards are consistent and internationally benchmarked."
+        },
+        "b5": {
+          "title": "Seamless Progression",
+          "description": "One coherent framework from age 5 to 18 eliminates gaps and supports smooth transitions between stages."
+        },
+        "b6": {
+          "title": "Future-Ready Skills",
+          "description": "Critical thinking, research, communication, and collaboration are embedded across every Cambridge programme."
+        }
+      },
+      "faq": {
+        "q1": {
+          "question": "Is AIS Doha a registered Cambridge school?",
+          "answer": "Yes. AIS Doha is fully registered with Cambridge Assessment International Education and authorised to deliver Cambridge Primary, Lower Secondary, IGCSE, and A Level programmes."
+        },
+        "q2": {
+          "question": "Which universities accept Cambridge qualifications?",
+          "answer": "Cambridge IGCSE and A Level qualifications are recognised by universities in over 160 countries, including Oxford, Cambridge, MIT, and leading institutions across the GCC."
+        },
+        "q3": {
+          "question": "When do students choose their IGCSE subjects?",
+          "answer": "Subject options are introduced in Year 9, with final selections confirmed at the start of Year 10 following guidance from tutors and our careers counsellor."
+        },
+        "q4": {
+          "question": "How does AIS Doha support university applications?",
+          "answer": "Our dedicated university counsellor provides one-to-one guidance from Year 10, including UCAS, Common App, and direct application support, alongside SAT preparation and personal statement workshops."
+        },
+        "q5": {
+          "question": "Are Cambridge qualifications accepted in Qatar?",
+          "answer": "Yes. Cambridge qualifications are widely recognised by universities in Qatar and the wider GCC, and our graduates regularly receive offers from Education City institutions and international branch campuses."
+        }
+      },
+      "stats": {
+        "years": {
+          "value": "18",
+          "suffix": "+",
+          "label": "Years as a Cambridge School"
+        },
+        "nationalities": {
+          "value": "45",
+          "suffix": "+",
+          "label": "Nationalities in Our Community"
+        },
+        "passRate": {
+          "value": "96",
+          "suffix": "%",
+          "label": "IGCSE Pass Rate (A*–C)"
+        }
+      },
+      "cta": {
+        "title": "Experience the Cambridge Advantage",
+        "primary": "Book a Tour"
+      }
+    },
+    "stem": {
+      "title": "STEM",
+      "lead": "Inspiring curiosity, creativity, and problem-solving through science, technology, engineering, and mathematics.",
+      "metaDescription": "STEM at AIS Doha—robotics, coding, science fairs, and innovation projects integrated across the Cambridge curriculum in Doha, Qatar.",
+      "overview": "STEM education at AIS Doha goes beyond the textbook. From Early Years coding with Bee-Bots to A Level robotics competitions, students engage in hands-on projects that connect classroom theory to real-world challenges. Our Innovation Hub, science laboratories, and specialist STEM teachers ensure every learner develops the analytical and digital skills the future demands.",
+      "competitions": {
+        "c1": {
+          "title": "AIS Science & Engineering Fair",
+          "description": "Annual school-wide exhibition where students present original research and design projects to judges and the community."
+        },
+        "c2": {
+          "title": "First LEGO League & Robotics",
+          "description": "Competitive robotics teams from Primary through High School design, build, and programme robots for regional tournaments."
+        },
+        "c3": {
+          "title": "International Maths & Science Olympiads",
+          "description": "Selected students represent AIS Doha in prestigious global competitions with dedicated coaching and preparation."
+        }
+      },
+      "gallery": {
+        "g1": "Students building a robot in the Innovation Hub",
+        "g2": "Chemistry experiment with safety equipment in the lab",
+        "g3": "Primary children coding with classroom tablets",
+        "g4": "Engineering design challenge with student prototypes",
+        "g5": "Science fair presentation to visiting judges",
+        "g6": "3D printing project in the design technology workshop"
+      },
+      "cta": {
+        "title": "See STEM in Action",
+        "primary": "Book a Tour"
+      }
+    },
+    "aiRobotics": {
+      "title": "AI & Robotics",
+      "lead": "Preparing students for an AI-driven world through coding, robotics, and computational thinking.",
+      "metaDescription": "AI and Robotics at AIS Doha—coding, machine learning foundations, and robotics programmes from Primary to A Level in Doha, Qatar.",
+      "overview": "Our AI & Robotics programme equips students with the skills to understand, create, and responsibly use emerging technologies. Dedicated computing labs, a robotics arena, and partnerships with industry mentors provide authentic learning experiences—from block-based coding in Primary to Python, machine learning concepts, and autonomous robot design in High School.",
+      "programs": {
+        "p1": {
+          "title": "Primary Coding & Robotics",
+          "description": "Block-based programming, Bee-Bots, and LEGO WeDo projects that introduce computational thinking through play."
+        },
+        "p2": {
+          "title": "Middle School Robotics Lab",
+          "description": "LEGO Mindstorms and micro:bit projects developing engineering design, sensors, and team-based problem solving."
+        },
+        "p3": {
+          "title": "High School AI Foundations",
+          "description": "Python programming, data analysis, and introductions to machine learning ethics and applications."
+        },
+        "p4": {
+          "title": "Competitive Robotics Teams",
+          "description": "After-school VEX and FLL teams competing regionally with mentorship from STEM faculty and industry partners."
+        }
+      },
+      "videoTitle": "Tour the AIS Doha Robotics & AI Lab",
+      "cta": {
+        "title": "Discover Our Innovation Programmes",
+        "primary": "Inquire Now"
+      }
+    },
+    "languages": {
+      "title": "Languages",
+      "lead": "Multilingual education that celebrates diversity while building fluency in English, Arabic, and French.",
+      "metaDescription": "Languages at AIS Doha—English-medium Cambridge instruction with Arabic, French, and Islamic Studies programmes in Doha, Qatar.",
+      "overview": "As an international school in the heart of Qatar, AIS Doha nurtures linguistic and cultural competence across our community. English is the language of instruction for Cambridge programmes, while Arabic and French are taught by specialist teachers. Our Arabic and Islamic Studies provision aligns with Ministry of Education requirements and celebrates the rich heritage of our host country.",
+      "cards": {
+        "en": {
+          "title": "English (Language of Instruction)",
+          "description": "Cambridge English programmes from Primary through A Level, with EAL support for students new to English-medium education."
+        },
+        "ar": {
+          "title": "Arabic",
+          "description": "Native and non-native Arabic pathways developing reading, writing, and communication skills aligned with Qatar's cultural context."
+        },
+        "fr": {
+          "title": "French",
+          "description": "Cambridge-aligned French from Year 3, available as an IGCSE and A Level option for students pursuing multilingual profiles."
+        }
+      },
+      "arabicIslamic": {
+        "title": "Arabic & Islamic Studies",
+        "body": "In accordance with Qatar Ministry of Education requirements, all Muslim students receive Arabic language and Islamic Studies instruction from specialist teachers. Our programme fosters respect for Islamic values, Quranic literacy, and an appreciation of Arab culture—complementing our international Cambridge curriculum.",
+        "imageAlt": "Students in an Arabic language and Islamic Studies lesson"
+      },
+      "cta": {
+        "title": "Learn About Our Language Programmes",
+        "primary": "Inquire Now"
+      }
+    }
+  },
+  "studentLife": {
+    "hub": {
+      "title": "Student Life",
+      "lead": "A vibrant community where learning extends far beyond the classroom—through clubs, sports, events, and lasting friendships.",
+      "metaDescription": "Student life at AIS Doha—clubs, sports, events, and a diverse community of 45+ nationalities in Doha, Qatar.",
+      "overview": "Life at AIS Doha is rich, inclusive, and full of opportunity. From competitive sports teams and creative clubs to cultural celebrations and community service, students develop leadership, teamwork, and friendships that last a lifetime. Our house system, pastoral care, and dedicated activities coordinators ensure every child finds their place in our community.",
+      "categories": {
+        "clubs": {
+          "title": "Clubs & Activities",
+          "description": "Over 30 clubs spanning STEM, arts, languages, debate, and community service—available from Primary onwards."
+        },
+        "sports": {
+          "title": "Sports & Athletics",
+          "description": "Competitive and recreational sport including football, basketball, swimming, athletics, and inter-school tournaments."
+        },
+        "events": {
+          "title": "Events & Celebrations",
+          "description": "International Day, science fairs, musical productions, charity drives, and graduation ceremonies throughout the year."
+        },
+        "gallery": {
+          "title": "Photo Gallery",
+          "description": "Browse moments from campus life, classrooms, sports, and special events across the AIS Doha community."
+        }
+      },
+      "mosaic": {
+        "g1": "International Day parade with flags and traditional dress",
+        "g2": "Students performing in the annual school musical",
+        "g3": "Football team celebrating a tournament victory",
+        "g4": "Robotics club preparing for a regional competition",
+        "g5": "Art exhibition opening in the creative arts studio",
+        "g6": "Community service project with students volunteering locally"
+      },
+      "cta": {
+        "title": "Experience Life at AIS Doha",
+        "primary": "Book a Tour"
+      }
+    },
+    "clubs": {
+      "title": "Clubs & Activities",
+      "lead": "Over 30 clubs and activities giving every student the chance to explore passions, develop skills, and make friends.",
+      "metaDescription": "Clubs and activities at AIS Doha—STEM, arts, languages, debate, and more for students from Primary to High School in Doha.",
+      "clubs": {
+        "c1": {
+          "name": "Robotics Club",
+          "ages": "Ages 8–18",
+          "description": "Design, build, and programme robots for school and regional competitions."
+        },
+        "c2": {
+          "name": "Coding Club",
+          "ages": "Ages 7–16",
+          "description": "Python, Scratch, and app development projects guided by specialist mentors."
+        },
+        "c3": {
+          "name": "Model United Nations",
+          "ages": "Ages 12–18",
+          "description": "Debate global issues, develop diplomacy skills, and attend inter-school conferences."
+        },
+        "c4": {
+          "name": "Art & Design Club",
+          "ages": "Ages 6–16",
+          "description": "Painting, sculpture, digital art, and portfolio preparation for creative students."
+        },
+        "c5": {
+          "name": "Drama & Theatre",
+          "ages": "Ages 8–18",
+          "description": "Acting workshops, scriptwriting, and annual school production rehearsals."
+        },
+        "c6": {
+          "name": "Music Ensemble",
+          "ages": "Ages 7–18",
+          "description": "Choir, band, and instrumental groups performing at school events and concerts."
+        },
+        "c7": {
+          "name": "Science Club",
+          "ages": "Ages 9–16",
+          "description": "Experiments, science fair preparation, and visits from guest scientists."
+        },
+        "c8": {
+          "name": "Debate Society",
+          "ages": "Ages 11–18",
+          "description": "Public speaking, argumentation, and inter-school debate tournaments."
+        },
+        "c9": {
+          "name": "Eco Warriors",
+          "ages": "Ages 8–16",
+          "description": "Sustainability projects, recycling initiatives, and environmental awareness campaigns."
+        },
+        "c10": {
+          "name": "Chess Club",
+          "ages": "Ages 6–18",
+          "description": "Strategy, tournaments, and coaching from beginner to advanced levels."
+        },
+        "c11": {
+          "name": "French Conversation",
+          "ages": "Ages 10–18",
+          "description": "Immersive language practice, cultural activities, and DELF preparation."
+        },
+        "c12": {
+          "name": "Community Service",
+          "ages": "Ages 11–18",
+          "description": "Charity fundraising, local volunteering, and global citizenship projects."
+        }
+      },
+      "cta": {
+        "title": "Find Your Passion at AIS Doha",
+        "primary": "Book a Tour"
+      }
+    },
+    "sports": {
+      "title": "Sports & Athletics",
+      "lead": "Competitive teams, recreational sport, and a commitment to healthy, active lifestyles for every student.",
+      "metaDescription": "Sports at AIS Doha—football, basketball, swimming, athletics, and inter-school competitions in Doha, Qatar.",
+      "sports": {
+        "s1": {
+          "name": "Football",
+          "description": "Boys' and girls' teams from Under 10 to senior level competing in QPPSL and inter-school leagues."
+        },
+        "s2": {
+          "name": "Basketball",
+          "description": "Indoor court training and competitive fixtures for Middle and High School teams."
+        },
+        "s3": {
+          "name": "Swimming",
+          "description": "Learn-to-swim programmes, squad training, and participation in Qatar school swim meets."
+        },
+        "s4": {
+          "name": "Athletics",
+          "description": "Track and field training culminating in the annual AIS Sports Day and external meets."
+        },
+        "s5": {
+          "name": "Volleyball",
+          "description": "Co-ed recreational and competitive volleyball for Middle and High School students."
+        },
+        "s6": {
+          "name": "Cricket",
+          "description": "Popular among our South Asian community with nets, coaching, and friendly fixtures."
+        },
+        "s7": {
+          "name": "Netball",
+          "description": "Girls' netball teams with regular training and inter-school tournaments."
+        },
+        "s8": {
+          "name": "Table Tennis",
+          "description": "Indoor club sessions and house competitions open to all age groups."
+        }
+      },
+      "facilities": {
+        "title": "World-Class Sports Facilities",
+        "body": "Our campus features a full-size football pitch, indoor multi-purpose sports hall, outdoor courts, and a temperature-controlled swimming pool. PE is part of every student's timetable, and our sports department offers pathways from recreational participation to elite competition.",
+        "imageAlt": "Aerial view of the AIS Doha sports complex with pitch and courts"
+      },
+      "cta": {
+        "title": "Join Our Sporting Community",
+        "primary": "Inquire Now"
+      }
+    },
+    "gallery": {
+      "title": "Photo Gallery",
+      "lead": "Moments from campus life, classrooms, sports, and celebrations across the AIS Doha community.",
+      "metaDescription": "Browse the AIS Doha photo gallery—campus, classrooms, sports, and events at our international school in Doha, Qatar.",
+      "filterLabel": "Filter gallery by category",
+      "filters": {
+        "all": "All",
+        "campus": "Campus",
+        "classroom": "Classroom",
+        "sports": "Sports",
+        "events": "Events"
+      },
+      "items": {
+        "i1": {
+          "alt": "Main entrance and landscaped campus grounds",
+          "category": "campus"
+        },
+        "i2": {
+          "alt": "Modern science laboratory with students at work",
+          "category": "classroom"
+        },
+        "i3": {
+          "alt": "Football match on the school pitch",
+          "category": "sports"
+        },
+        "i4": {
+          "alt": "International Day cultural celebration",
+          "category": "events"
+        },
+        "i5": {
+          "alt": "Learning Resource Centre with students reading",
+          "category": "campus"
+        },
+        "i6": {
+          "alt": "Primary classroom collaborative group activity",
+          "category": "classroom"
+        },
+        "i7": {
+          "alt": "Swimming squad training in the school pool",
+          "category": "sports"
+        },
+        "i8": {
+          "alt": "Annual school musical performance on stage",
+          "category": "events"
+        },
+        "i9": {
+          "alt": "Shaded outdoor playground in Early Years",
+          "category": "campus"
+        },
+        "i10": {
+          "alt": "A Level students in a seminar-style lesson",
+          "category": "classroom"
+        },
+        "i11": {
+          "alt": "Basketball tournament in the indoor sports hall",
+          "category": "sports"
+        },
+        "i12": {
+          "alt": "Graduation ceremony with caps and gowns",
+          "category": "events"
+        }
+      },
+      "cta": {
+        "title": "See AIS Doha in Person",
+        "primary": "Book a Tour"
+      }
+    }
+  }
+}
