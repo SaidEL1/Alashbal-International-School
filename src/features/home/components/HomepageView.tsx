@@ -14,7 +14,6 @@ import { CTABanner } from "@/shared/components/CTABanner";
 import { FeatureCard } from "@/shared/components/FeatureCard";
 import { Hero } from "@/shared/components/Hero";
 import { OptimizedImage } from "@/shared/components/OptimizedImage";
-import { SchoolLogo } from "@/shared/components/SchoolLogo";
 import { ScrollReveal } from "@/shared/components/client/ScrollReveal";
 import { SectionHeader } from "@/shared/components/SectionHeader";
 import { SplitSection } from "@/shared/components/SplitSection";
@@ -149,23 +148,25 @@ export async function HomepageView(): Promise<React.JSX.Element> {
 
       <section
         id={homepageSectionIds.principal}
-        className="bg-neutral-50 py-16 dark:bg-neutral-950 md:py-24"
+        className="bg-secondary-100 py-16 dark:bg-neutral-950 md:py-24"
       >
-        <div className="mx-auto grid max-w-container items-center gap-10 px-4 lg:grid-cols-2 lg:gap-16">
-          <ScrollReveal className="flex justify-center">
-            <SchoolLogo showLink={false} imageClassName="h-auto max-h-40 w-full max-w-md" />
-          </ScrollReveal>
-          <ScrollReveal delay={0.1}>
-            <SectionHeader
-              align="start"
-              title={t("principal.title")}
-              subtitle={t("principal.subtitle")}
-            />
-            <blockquote className="mt-6 border-s-4 border-secondary-500 ps-4 font-display text-xl italic text-primary-900 dark:text-neutral-50">
-              {t("principal.quote")}
-            </blockquote>
-            <p className="mt-6 leading-relaxed text-muted-foreground">{t("principal.body")}</p>
-            <p className="mt-4 text-sm font-medium text-muted-foreground">{t("principal.name")}</p>
+        <div className="mx-auto max-w-container px-4">
+          <ScrollReveal>
+            <div className="mx-auto max-w-4xl rounded-xl border border-secondary-300 bg-secondary-200/80 p-8 dark:border-primary-800 dark:bg-primary-950/40 md:p-12">
+              <SectionHeader
+                align="center"
+                title={t("principal.title")}
+                subtitle={t("principal.subtitle")}
+              />
+              <p className="mt-6 text-center font-display text-xl font-semibold text-primary-900 dark:text-neutral-50">
+                {t("principal.welcome")}
+              </p>
+              <p className="mt-6 leading-relaxed text-foreground">{t("principal.quote")}</p>
+              <p className="mt-4 leading-relaxed text-foreground">{t("principal.body")}</p>
+              <p className="mt-6 text-sm font-medium text-muted-foreground">
+                {t("principal.name")}
+              </p>
+            </div>
           </ScrollReveal>
         </div>
       </section>

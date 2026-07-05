@@ -11,7 +11,6 @@ import {
   type AcademicProgramKey,
 } from "@/config/academics";
 import { ageBandHrefs } from "@/config/homepage";
-import { LazyGalleryGrid } from "@/features/gallery/components/LazyGalleryGrid";
 import { Breadcrumb } from "@/shared/components/Breadcrumb";
 import { CTABanner } from "@/shared/components/CTABanner";
 import { FeatureCard } from "@/shared/components/FeatureCard";
@@ -23,8 +22,9 @@ import { SectionHeader } from "@/shared/components/SectionHeader";
 import { SplitSection } from "@/shared/components/SplitSection";
 import { Timeline, type TimelineItem } from "@/shared/components/Timeline";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/ui/accordion";
-import { placeholderGalleryImages } from "@/lib/gallery";
+import { LazyGalleryGrid } from "@/features/gallery/components/LazyGalleryGrid";
 import { imagePaths } from "@/lib/images";
+import { placeholderGalleryImages } from "@/lib/gallery";
 
 export async function AcademicsHubView(): Promise<React.JSX.Element> {
   const t = await getTranslations("academics.hub");

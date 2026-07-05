@@ -48,6 +48,7 @@
     "highSchool": "High School",
     "cambridgePathway": "Cambridge Pathway",
     "stem": "STEM",
+    "aiRobotics": "AI & Robotics",
     "languages": "Languages",
     "howToApply": "How to Apply",
     "tuitionFees": "Tuition & Fees",
@@ -70,7 +71,8 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
     "rights": "All rights reserved.",
-    "address": "Old Airport Area along E-ring Road, Doha, Qatar"
+    "address": "Old Airport Area along E-ring Road, Doha, Qatar",
+    "contact": "Contact Us"
   },
   "trust": {
     "ariaLabel": "Accreditations and quality assurance partners",
@@ -120,7 +122,7 @@
         },
         "2": {
           "title": "Innovation & STEM",
-          "description": "Future-ready learning through robotics, coding, AI, and enquiry-based projects that connect classroom knowledge to real-world challenges."
+          "description": "Future-ready learning through coding, science, and enquiry-based projects that connect classroom knowledge to real-world challenges."
         },
         "3": {
           "title": "Wellbeing & Character",
@@ -167,11 +169,13 @@
     },
     "principal": {
       "title": "Welcome Message",
-      "subtitle": "Welcome to Alashbal International School!",
-      "quote": "On behalf of the entire AIS community, I extend a warm welcome to you. As the founding School Administrator, I am proud to lead an institution committed to excellence in education—where every student is encouraged to explore, learn, perform, and excel.",
-      "body": "At Alashbal International School, we nurture each learner's unique talents and provide the skills, knowledge, and confidence to succeed in an ever-changing world. Our dedicated educators create a supportive environment rooted in Cambridge excellence and the values of our multicultural community in Doha.",
-      "name": "Founding School Administrator",
-      "imageAlt": "Alashbal International School logo with Cambridge International Education affiliation"
+      "subtitle": "From our founding School Administrator",
+      "welcome": "Welcome to Alashbal International School!",
+      "quote": "It is with great pleasure and pride that I extend a warm welcome to you all to our vibrant and dynamic learning community at Alashbal International School (AIS). As the founding School Administrator, I am honoured to lead an institution dedicated to excellence in education, fostering a nurturing environment, and empowering every student to reach their full potential.",
+      "body": "At AIS, we are committed to deliver a premium quality education that nurtures the intelligence, talents, and skills of every student as a solid foundation for future life.",
+      "name": "School Administrator, Alashbal International School",
+      "videoTitle": "Welcome message from the School Administrator",
+      "imageAlt": "School Administrator of Alashbal International School welcoming families to AIS Doha"
     },
     "stats": {
       "years": {
@@ -223,8 +227,8 @@
     "stem": {
       "title": "Innovation Through STEM",
       "subtitle": "Future-ready learning from Early Years to A Level",
-      "body": "At AIS Doha, STEM is woven into every stage of the Cambridge pathway. Hands-on science, technology, and enquiry-led projects help students think critically, solve real problems, and develop the skills demanded by top universities and employers worldwide.",
-      "imageAlt": "Students engaged in science and technology learning at Alashbal International School",
+      "body": "At AIS Doha, STEM is woven into every stage of the Cambridge pathway. Our dedicated Innovation Hub and enquiry-led projects help students think critically, solve real problems, and develop the digital fluency demanded by top universities and employers worldwide.",
+      "imageAlt": "Students programming robots and conducting science experiments in the AIS Doha Innovation Hub",
       "cta": "Explore STEM Programmes"
     },
     "galleryPreview": {
@@ -240,9 +244,9 @@
     "story": {
       "title": "Our Story",
       "lead": "Nearly two decades of excellence in international education, rooted in Doha and connected to the world.",
-      "metaDescription": "Discover the history of Alashbal International School—Cambridge-accredited education in Doha, Qatar since 2009.",
-      "paragraph1": "Founded in 2009, Alashbal International School (AIS) was established in Doha with a clear vision: to provide premium quality Cambridge education in a warm, multicultural community. Our campus in the Old Airport Area along E-ring Road has grown into a trusted institution for families seeking international excellence in Qatar.",
-      "paragraph2": "Our name—Alashbal, meaning \"young cubs\"—reflects our motto: Explore • Learn • Perform • Excel. We nurture brilliant young achievers today to become competitive global leaders of tomorrow, guided by Cambridge International Education standards.",
+      "metaDescription": "Discover the history of Alashbal International School—Cambridge-accredited education in Doha, Qatar since 2008.",
+      "paragraph1": "Founded in 2008, Alashbal International School (AIS Doha) was established with a clear vision: to provide world-class Cambridge education in the heart of Qatar's capital. What began as a small community school has grown into one of Doha's most respected international institutions, welcoming families from more than 45 nationalities.",
+      "paragraph2": "Our name—Alashbal, meaning \"young cubs\"—reflects our belief that every child has the potential to grow into a confident, capable leader. Today, our purpose-built campus in the Old Airport Area combines modern facilities with a warm, family-centred culture, where students are challenged to excel and supported to thrive.",
       "timeline": {
         "2008": {
           "title": "School Founded",
@@ -257,8 +261,8 @@
           "description": "Major campus development including new science laboratories, sports facilities, and dedicated Early Years wing."
         },
         "2022": {
-          "title": "STEM & Innovation",
-          "description": "Expanded science laboratories and enquiry-led STEM programmes embedded across the Cambridge curriculum."
+          "title": "Innovation Hub Launch",
+          "description": "Opening of STEM and AI/Robotics facilities, embedding future-ready skills across the curriculum."
         },
         "2026": {
           "title": "Looking Ahead",
@@ -831,16 +835,16 @@
     "stem": {
       "title": "STEM",
       "lead": "Inspiring curiosity, creativity, and problem-solving through science, technology, engineering, and mathematics.",
-      "metaDescription": "STEM at AIS Doha—robotics, coding, science fairs, and innovation projects integrated across the Cambridge curriculum in Doha, Qatar.",
-      "overview": "STEM education at AIS Doha goes beyond the textbook. From Early Years coding with Bee-Bots to A Level robotics competitions, students engage in hands-on projects that connect classroom theory to real-world challenges. Our Innovation Hub, science laboratories, and specialist STEM teachers ensure every learner develops the analytical and digital skills the future demands.",
+      "metaDescription": "STEM at AIS Doha—coding, science fairs, and innovation projects integrated across the Cambridge curriculum in Doha, Qatar.",
+      "overview": "STEM education at AIS Doha goes beyond the textbook. From Early Years coding activities to A Level science projects, students engage in hands-on learning that connects classroom theory to real-world challenges. Our Innovation Hub, science laboratories, and specialist STEM teachers ensure every learner develops the analytical and digital skills the future demands.",
       "competitions": {
         "c1": {
           "title": "AIS Science & Engineering Fair",
           "description": "Annual school-wide exhibition where students present original research and design projects to judges and the community."
         },
         "c2": {
-          "title": "First LEGO League & Robotics",
-          "description": "Competitive robotics teams from Primary through High School design, build, and programme robots for regional tournaments."
+          "title": "STEM Innovation Challenge",
+          "description": "Cross-phase design and problem-solving competitions where students apply science, technology, and mathematics to real challenges."
         },
         "c3": {
           "title": "International Maths & Science Olympiads",
@@ -848,7 +852,7 @@
         }
       },
       "gallery": {
-        "g1": "Students building a robot in the Innovation Hub",
+        "g1": "Students collaborating on a science project in the Innovation Hub",
         "g2": "Chemistry experiment with safety equipment in the lab",
         "g3": "Primary children coding with classroom tablets",
         "g4": "Engineering design challenge with student prototypes",

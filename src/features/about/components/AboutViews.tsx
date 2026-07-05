@@ -98,21 +98,21 @@ export async function MissionVisionView({ locale }: AboutPageProps): Promise<Rea
       <Breadcrumb items={breadcrumbs} className="mx-auto max-w-container px-4 pt-6" />
       <Hero variant="page" title={t("title")} lead={t("lead")} />
       <section className="py-16 md:py-20">
-        <div className="mx-auto grid max-w-container gap-8 px-4 md:grid-cols-2">
+        <div className="mx-auto grid max-w-container gap-8 px-4">
           <ScrollReveal>
-            <div className="h-full rounded-xl bg-primary-900 p-8 md:p-10">
-              <h2 className="font-display text-2xl font-semibold uppercase tracking-wide text-secondary-400 md:text-3xl">
+            <div className="rounded-xl border border-primary-800 bg-primary-900 p-8 md:p-10">
+              <h2 className="font-display text-2xl font-bold uppercase tracking-wide text-secondary-400 md:text-3xl">
                 {t("mission.title")}
               </h2>
-              <p className="mt-6 leading-relaxed text-secondary-100">{t("mission.body")}</p>
+              <p className="mt-6 text-lg leading-relaxed text-secondary-300">{t("mission.body")}</p>
             </div>
           </ScrollReveal>
           <ScrollReveal delay={0.1}>
-            <div className="h-full rounded-xl bg-primary-900 p-8 md:p-10">
-              <h2 className="font-display text-2xl font-semibold uppercase tracking-wide text-neutral-50 md:text-3xl">
+            <div className="rounded-xl border border-primary-800 bg-primary-900 p-8 md:p-10">
+              <h2 className="font-display text-2xl font-bold uppercase tracking-wide text-neutral-50 md:text-3xl">
                 {t("vision.title")}
               </h2>
-              <p className="mt-6 leading-relaxed text-secondary-300">{t("vision.body")}</p>
+              <p className="mt-6 text-lg leading-relaxed text-secondary-300">{t("vision.body")}</p>
             </div>
           </ScrollReveal>
         </div>

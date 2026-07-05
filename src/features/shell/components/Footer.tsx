@@ -3,7 +3,7 @@ import { getTranslations } from "next-intl/server";
 import { footerColumns } from "@/config/navigation";
 import { siteConfig } from "@/config/site";
 import { Link } from "@/i18n/navigation";
-import { SchoolLogo } from "@/shared/components/SchoolLogo";
+import { SiteLogo } from "@/shared/components/SiteLogo";
 
 export async function Footer(): Promise<React.JSX.Element> {
   const t = await getTranslations();
@@ -12,22 +12,20 @@ export async function Footer(): Promise<React.JSX.Element> {
   return (
     <footer className="border-t border-border bg-neutral-50 dark:bg-neutral-950">
       <div className="mx-auto max-w-container px-4 py-12">
-        <div className="mb-10 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-          <SchoolLogo showLink={false} imageClassName="h-14" />
+        <div className="mb-10 flex flex-col gap-4 border-b border-border pb-10 sm:flex-row sm:items-center sm:justify-between">
+          <SiteLogo />
           <div className="text-sm text-muted-foreground">
-            <p>
-              <a href={`mailto:${siteConfig.email}`} className="hover:text-foreground">
-                {siteConfig.email}
-              </a>
-            </p>
-            <p className="mt-1">
-              <a
-                href={`tel:${siteConfig.phone.replace(/\s/g, "")}`}
-                className="hover:text-foreground"
-              >
-                {siteConfig.phone}
-              </a>
-            </p>
+            <p className="font-semibold text-foreground">{t("footer.contact")}</p>
+            <p className="mt-1">{t("footer.address")}</p>
+            <a href={`mailto:${siteConfig.email}`} className="mt-1 block hover:text-foreground">
+              {siteConfig.email}
+            </a>
+            <a
+              href={`tel:${siteConfig.phone.replace(/\s/g, "")}`}
+              className="mt-1 block hover:text-foreground"
+            >
+              {siteConfig.phone}
+            </a>
           </div>
         </div>
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
@@ -53,7 +51,6 @@ export async function Footer(): Promise<React.JSX.Element> {
           <p>
             © {year} {siteConfig.name}. {t("footer.rights")}
           </p>
-          <p>{t("footer.address")}</p>
         </div>
       </div>
     </footer>

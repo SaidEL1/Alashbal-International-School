@@ -8,7 +8,7 @@ import { useState } from "react";
 import { megaMenuItems, mobileExtraLinks, topLevelLinks, type NavItem } from "@/config/navigation";
 import { siteConfig } from "@/config/site";
 import { Link } from "@/i18n/navigation";
-import { SchoolLogo } from "@/shared/components/SchoolLogo";
+import { SiteLogo } from "@/shared/components/SiteLogo";
 import { Button } from "@/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -76,9 +76,8 @@ export function MobileDrawer(): React.JSX.Element {
           aria-describedby={undefined}
         >
           <div className="flex items-center justify-between border-b border-border px-4 py-3">
-            <Dialog.Title asChild>
-              <SchoolLogo showLink={false} />
-            </Dialog.Title>
+            <Dialog.Title className="sr-only">{t("common.openMenu")}</Dialog.Title>
+            <SiteLogo showText={false} imageClassName="h-9" />
             <Dialog.Close asChild>
               <Button type="button" variant="ghost" size="icon" aria-label={t("common.closeMenu")}>
                 <X className="h-5 w-5" aria-hidden />
