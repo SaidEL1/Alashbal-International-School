@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { getTranslations } from "next-intl/server";
 
 import { siteConfig } from "@/config/site";
 import { Link } from "@/i18n/navigation";
@@ -17,11 +18,12 @@ const sizeMap = {
   lg: { box: "h-16 w-16", text: "text-xl" },
 } as const;
 
-export function SchoolLogo({
+export async function SchoolLogo({
   className,
   showName = true,
   size = "md",
-}: SchoolLogoProps): React.JSX.Element {
+}: SchoolLogoProps): Promise<React.JSX.Element> {
+  const t = await getTranslations("common");
   const sizes = sizeMap[size];
 
   return (
@@ -42,13 +44,18 @@ export function SchoolLogo({
         priority
       />
       {showName ? (
-        <span
-          className={cn(
-            "font-display font-semibold text-primary-900 dark:text-neutral-50",
-            sizes.text,
-          )}
-        >
-          {siteConfig.shortName}
+        <span className="flex flex-col leading-tight">
+          <span
+            className={cn(
+              "font-display font-semibold text-primary-900 dark:text-neutral-50",
+              sizes.text,
+            )}
+          >
+            {siteConfig.shortName}
+          </span>
+          <span className="text-[10px] font-semibold uppercase tracking-widest text-secondary-600 sm:text-xs">
+            {t("motto")}
+          </span>
         </span>
       ) : null}
     </Link>

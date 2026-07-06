@@ -36,7 +36,10 @@ export async function OurStoryView({ locale }: AboutPageProps): Promise<React.JS
 
   const stats = {
     years: { value: 18, suffix: "+", label: t("stats.years") },
-    nationalities: { value: 45, suffix: "+", label: t("stats.nationalities") },
+    nationalities: {
+      displayText: t("stats.nationalitiesDisplay"),
+      label: t("stats.nationalities"),
+    },
     students: { value: 1200, suffix: "+", label: t("stats.students") },
     ratio: { value: 12, suffix: ":1", label: t("stats.ratio") },
   };
@@ -112,7 +115,7 @@ export async function MissionVisionView({ locale }: AboutPageProps): Promise<Rea
           <h2 className="text-center font-display text-3xl font-semibold text-primary-900 dark:text-neutral-50">
             {t("values.title")}
           </h2>
-          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-5">
+          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {valueKeys.map((key, index) => (
               <ScrollReveal key={key} delay={index * 0.05}>
                 <FeatureCard

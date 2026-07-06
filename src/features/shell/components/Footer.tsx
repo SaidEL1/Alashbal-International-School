@@ -2,6 +2,7 @@ import { getTranslations } from "next-intl/server";
 
 import { footerColumns } from "@/config/navigation";
 import { siteConfig } from "@/config/site";
+import { LazyMapEmbed } from "@/features/about/components/LazyMapEmbed";
 import { Link } from "@/i18n/navigation";
 import { SchoolLogo } from "@/shared/components/SchoolLogo";
 
@@ -26,7 +27,21 @@ export async function Footer(): Promise<React.JSX.Element> {
             >
               {siteConfig.phone}
             </a>
+            <a
+              href={siteConfig.mapUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-1 block hover:text-foreground"
+            >
+              {t("footer.directions")}
+            </a>
           </div>
+        </div>
+        <div className="mb-10">
+          <h2 className="mb-4 font-display text-sm font-semibold uppercase tracking-wide text-primary-900 dark:text-neutral-50">
+            {t("footer.mapTitle")}
+          </h2>
+          <LazyMapEmbed title={t("footer.mapTitle")} loadLabel={t("footer.mapLoadLabel")} />
         </div>
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {footerColumns.map((column) => (

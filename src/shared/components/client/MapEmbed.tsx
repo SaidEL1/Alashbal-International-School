@@ -15,8 +15,7 @@ type MapEmbedProps = {
 
 export function MapEmbed({ title, loadLabel, className }: MapEmbedProps): React.JSX.Element {
   const [loaded, setLoaded] = useState(false);
-  const query = encodeURIComponent(siteConfig.address);
-  const embedUrl = `https://maps.google.com/maps?q=${query}&output=embed`;
+  const embedUrl = siteConfig.mapEmbedUrl;
 
   return (
     <div

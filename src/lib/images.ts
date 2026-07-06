@@ -4,11 +4,11 @@ export const BLUR_DATA_URL =
 
 export const imagePaths = {
   brand: {
-    logo: "/images/brand/logo.jpeg",
+    logo: "/images/brand/logo-circle.jpg",
   },
   home: {
-    hero: "/images/home/hero.svg",
-    principal: "/images/home/principal.svg",
+    hero: "/images/home/hero-campus.png",
+    principal: "/images/home/principal-kath.png",
     cambridge: "/images/home/cambridge.svg",
   },
   about: {

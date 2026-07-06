@@ -72,8 +72,8 @@ export default async function LocaleLayout({
       <body className={cn("flex min-h-screen flex-col", isRtl ? "font-arabic" : "font-sans")}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
-          enableSystem
+          defaultTheme="light"
+          enableSystem={false}
           disableTransitionOnChange
         >
           <NextIntlClientProvider messages={messages}>

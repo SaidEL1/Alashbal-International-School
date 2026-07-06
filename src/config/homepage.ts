@@ -1,11 +1,11 @@
 import type { LucideIcon } from "lucide-react";
-import { Globe, GraduationCap, Heart, Lightbulb } from "lucide-react";
+import { Globe, GraduationCap, Heart, RefreshCw } from "lucide-react";
 
 export const homepageSectionIds = {
   pillars: "pillars",
+  aisValues: "ais-values",
   journey: "journey",
   cambridge: "cambridge",
-  stem: "stem",
   galleryPreview: "gallery-preview",
   principal: "principal",
   stats: "stats",
@@ -13,7 +13,9 @@ export const homepageSectionIds = {
   cta: "cta",
 } as const;
 
-export const pillarIcons: LucideIcon[] = [GraduationCap, Globe, Lightbulb, Heart];
+export const pillarIcons: LucideIcon[] = [GraduationCap, Globe, RefreshCw, Heart];
+
+export const aisValueKeys = ["accountability", "innovation", "service"] as const;
 
 export const ageBandHrefs = [
   "/academics/early-years",
@@ -44,7 +46,7 @@ export const campusGalleryKeys = ["g1", "g2", "g3", "g4", "g5", "g6"] as const;
 
 export const timelineKeys = ["2008", "2012", "2018", "2022", "2026"] as const;
 
-export const valueKeys = ["integrity", "excellence", "innovation", "community", "respect"] as const;
+export const valueKeys = ["accountability", "innovation", "service"] as const;
 
 export const leaderKeys = [
   "head",

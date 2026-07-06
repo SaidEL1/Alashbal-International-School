@@ -6,7 +6,10 @@ import { statKeys } from "@/config/homepage";
 import { StatCounter } from "@/shared/components/client/StatCounter";
 
 type StatCounterSectionProps = {
-  stats: Record<(typeof statKeys)[number], { value: number; suffix?: string; label: string }>;
+  stats: Record<
+    (typeof statKeys)[number],
+    { value?: number; suffix?: string; label: string; displayText?: string }
+  >;
 };
 
 export function StatCounterSection({ stats }: StatCounterSectionProps): React.JSX.Element {
@@ -14,7 +17,15 @@ export function StatCounterSection({ stats }: StatCounterSectionProps): React.JS
     <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
       {statKeys.map((key) => {
         const stat = stats[key];
-        return <StatCounter key={key} value={stat.value} suffix={stat.suffix} label={stat.label} />;
+        return (
+          <StatCounter
+            key={key}
+            value={stat.value}
+            suffix={stat.suffix}
+            label={stat.label}
+            displayText={stat.displayText}
+          />
+        );
       })}
     </div>
   );

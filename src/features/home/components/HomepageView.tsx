@@ -2,12 +2,12 @@ import { getTranslations } from "next-intl/server";
 
 import {
   ageBandHrefs,
+  aisValueKeys,
   homepageSectionIds,
   pillarIcons,
   statKeys,
   testimonialKeys,
 } from "@/config/homepage";
-import { Link } from "@/i18n/navigation";
 import { imagePaths } from "@/lib/images";
 import { AgeBandCard } from "@/shared/components/AgeBandCard";
 import { CTABanner } from "@/shared/components/CTABanner";
@@ -20,21 +20,28 @@ import { SplitSection } from "@/shared/components/SplitSection";
 import { TrustBar } from "@/shared/components/TrustBar";
 import { LazyStatCounterSection } from "@/features/home/components/StatCounterSection";
 import { LazyTestimonialSection } from "@/features/home/components/TestimonialSection";
-import { Button } from "@/ui/button";
 
 export async function HomepageView(): Promise<React.JSX.Element> {
   const t = await getTranslations("home");
 
   const stats = Object.fromEntries(
-    statKeys.map((key) => [
-      key,
-      {
-        value: Number(t(`stats.${key}.value`)),
-        suffix: t(`stats.${key}.suffix`),
-        label: t(`stats.${key}.label`),
-      },
-    ]),
-  ) as Record<(typeof statKeys)[number], { value: number; suffix?: string; label: string }>;
+    statKeys.map((key) => {
+      const displayText =
+        key === "nationalities" ? t("stats.nationalities.displayText") : undefined;
+      return [
+        key,
+        {
+          value: displayText ? undefined : Number(t(`stats.${key}.value`)),
+          suffix: displayText ? undefined : t(`stats.${key}.suffix`),
+          label: t(`stats.${key}.label`),
+          displayText,
+        },
+      ];
+    }),
+  ) as Record<
+    (typeof statKeys)[number],
+    { value?: number; suffix?: string; label: string; displayText?: string }
+  >;
 
   const testimonials = testimonialKeys.map((key) => ({
     id: key,
@@ -67,6 +74,33 @@ export async function HomepageView(): Promise<React.JSX.Element> {
                   icon={Icon}
                   title={t(`pillars.items.${index}.title`)}
                   description={t(`pillars.items.${index}.description`)}
+                />
+              </ScrollReveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section
+        id={homepageSectionIds.aisValues}
+        className="bg-primary-900 py-16 text-neutral-50 md:py-24"
+      >
+        <div className="mx-auto max-w-container px-4">
+          <ScrollReveal>
+            <h2 className="text-center font-display text-3xl font-semibold text-neutral-50 md:text-4xl">
+              {t("aisValues.title")}
+            </h2>
+            <p className="mx-auto mt-3 max-w-3xl text-center text-lg text-neutral-300">
+              {t("aisValues.subtitle")}
+            </p>
+          </ScrollReveal>
+          <div className="mt-12 grid gap-6 md:grid-cols-3">
+            {aisValueKeys.map((key, index) => (
+              <ScrollReveal key={key} delay={index * 0.08}>
+                <FeatureCard
+                  variant="dark"
+                  title={t(`aisValues.${key}.title`)}
+                  description={t(`aisValues.${key}.description`)}
                 />
               </ScrollReveal>
             ))}
@@ -121,44 +155,19 @@ export async function HomepageView(): Promise<React.JSX.Element> {
         </SplitSection>
       </section>
 
-      <section id={homepageSectionIds.stem} className="bg-primary-900 py-16 md:py-24">
-        <div className="mx-auto grid max-w-container items-center gap-10 px-4 lg:grid-cols-5 lg:gap-16">
-          <ScrollReveal className="lg:col-span-3">
-            <h2 className="font-display text-3xl font-semibold text-neutral-50 md:text-4xl">
-              {t("stem.title")}
-            </h2>
-            <p className="mt-3 text-lg text-neutral-300">{t("stem.subtitle")}</p>
-            <p className="mt-6 leading-relaxed text-neutral-300">{t("stem.body")}</p>
-            <Button asChild className="mt-8" variant="secondary">
-              <Link href="/academics/stem">{t("stem.cta")}</Link>
-            </Button>
-          </ScrollReveal>
-          <ScrollReveal className="lg:col-span-2" delay={0.1}>
-            <div className="relative aspect-square overflow-hidden rounded-xl">
-              <OptimizedImage
-                src={imagePaths.about.placeholder}
-                alt={t("stem.imageAlt")}
-                fill
-                sizes="40vw"
-              />
-            </div>
-          </ScrollReveal>
-        </div>
-      </section>
-
       <section
         id={homepageSectionIds.principal}
         className="bg-neutral-50 py-16 dark:bg-neutral-950 md:py-24"
       >
         <div className="mx-auto grid max-w-container items-center gap-10 px-4 lg:grid-cols-2 lg:gap-16">
           <ScrollReveal>
-            <div className="relative mx-auto aspect-square max-w-sm overflow-hidden rounded-2xl border border-border bg-secondary-100 p-8 shadow-elevation2 dark:bg-primary-900/30">
+            <div className="relative mx-auto aspect-[4/5] max-w-sm overflow-hidden rounded-2xl border border-border shadow-elevation2">
               <OptimizedImage
-                src={imagePaths.brand.logo}
+                src={imagePaths.home.principal}
                 alt={t("principal.imageAlt")}
                 fill
                 sizes="(max-width:1024px) 80vw, 400px"
-                className="object-contain p-6"
+                className="object-cover object-top"
               />
             </div>
           </ScrollReveal>
@@ -170,9 +179,12 @@ export async function HomepageView(): Promise<React.JSX.Element> {
             />
             <div className="mt-6 space-y-4 text-base leading-relaxed text-muted-foreground">
               <p>{t("principal.intro")}</p>
-              <p>{t("principal.body")}</p>
+              <p>{t("principal.body1")}</p>
+              <p>{t("principal.body2")}</p>
+              <p>{t("principal.body3")}</p>
             </div>
-            <p className="mt-6 text-sm font-medium text-primary-900 dark:text-neutral-50">
+            <p className="mt-4 text-sm italic text-muted-foreground">{t("principal.signoff")}</p>
+            <p className="mt-2 text-sm font-medium text-primary-900 dark:text-neutral-50">
               {t("principal.name")}
             </p>
           </ScrollReveal>

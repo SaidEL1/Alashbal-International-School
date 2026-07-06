@@ -4,9 +4,10 @@ import { useEffect, useRef, useState } from "react";
 import { useReducedMotion } from "framer-motion";
 
 type StatCounterProps = {
-  value: number;
+  value?: number;
   suffix?: string;
   label: string;
+  displayText?: string;
 };
 
 function useCountUp(target: number, active: boolean, reducedMotion: boolean): number {
@@ -35,11 +36,16 @@ function useCountUp(target: number, active: boolean, reducedMotion: boolean): nu
   return count;
 }
 
-export function StatCounter({ value, suffix = "", label }: StatCounterProps): React.JSX.Element {
+export function StatCounter({
+  value = 0,
+  suffix = "",
+  label,
+  displayText,
+}: StatCounterProps): React.JSX.Element {
   const ref = useRef<HTMLDivElement>(null);
   const [active, setActive] = useState(false);
   const reducedMotion = useReducedMotion() ?? false;
-  const count = useCountUp(value, active, reducedMotion);
+  const count = useCountUp(value, active && !displayText, reducedMotion);
 
   useEffect(() => {
     const node = ref.current;
@@ -60,8 +66,12 @@ export function StatCounter({ value, suffix = "", label }: StatCounterProps): Re
     <div ref={ref} className="text-center">
       <p className="font-display text-4xl font-semibold text-primary-900 dark:text-neutral-50 md:text-5xl">
         <span aria-live="polite">
-          {count}
-          {suffix}
+          {displayText ?? (
+            <>
+              {count}
+              {suffix}
+            </>
+          )}
         </span>
       </p>
       <p className="mt-2 text-sm font-medium text-muted-foreground">{label}</p>
