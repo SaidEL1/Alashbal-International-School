@@ -21,6 +21,7 @@ import { SplitSection } from "@/shared/components/SplitSection";
 import { TrustBar } from "@/shared/components/TrustBar";
 import { LazyStatCounterSection } from "@/features/home/components/StatCounterSection";
 import { LazyTestimonialSection } from "@/features/home/components/TestimonialSection";
+import { LazyLifeAtAisGallery } from "@/features/home/components/LazyLifeAtAisGallery";
 
 export async function HomepageView(): Promise<React.JSX.Element> {
   const t = await getTranslations("home");
@@ -49,6 +50,12 @@ export async function HomepageView(): Promise<React.JSX.Element> {
     quote: t(`testimonials.${key}.quote`),
     author: t(`testimonials.${key}.author`),
     role: t(`testimonials.${key}.role`),
+  }));
+
+  const gallerySlides = galleryPreviewKeys.map((key) => ({
+    id: key,
+    src: imagePaths.home.lifeAtAis[key],
+    alt: t(`galleryPreview.${key}`),
   }));
 
   return (
@@ -217,24 +224,13 @@ export async function HomepageView(): Promise<React.JSX.Element> {
       >
         <div className="mx-auto max-w-container px-4">
           <ScrollReveal>
-            <SectionHeader
+            <LazyLifeAtAisGallery
               title={t("galleryPreview.title")}
               subtitle={t("galleryPreview.subtitle")}
+              bannerAlt={t("galleryPreview.bannerAlt")}
+              slides={gallerySlides}
             />
           </ScrollReveal>
-          <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {galleryPreviewKeys.map((key) => (
-              <div key={key} className="relative aspect-[4/3] overflow-hidden rounded-lg">
-                <OptimizedImage
-                  src={imagePaths.home.lifeAtAis[key]}
-                  alt={t(`galleryPreview.${key}`)}
-                  fill
-                  sizes="(max-width:768px) 50vw, 25vw"
-                  className="object-cover"
-                />
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 
