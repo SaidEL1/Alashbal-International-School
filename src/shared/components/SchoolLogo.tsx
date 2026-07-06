@@ -1,5 +1,7 @@
+"use client";
+
 import Image from "next/image";
-import { getTranslations } from "next-intl/server";
+import { useTranslations } from "next-intl";
 
 import { siteConfig } from "@/config/site";
 import { Link } from "@/i18n/navigation";
@@ -18,12 +20,12 @@ const sizeMap = {
   lg: { box: "h-16 w-16", text: "text-xl" },
 } as const;
 
-export async function SchoolLogo({
+export function SchoolLogo({
   className,
   showName = true,
   size = "md",
-}: SchoolLogoProps): Promise<React.JSX.Element> {
-  const t = await getTranslations("common");
+}: SchoolLogoProps): React.JSX.Element {
+  const t = useTranslations("common");
   const sizes = sizeMap[size];
 
   return (
