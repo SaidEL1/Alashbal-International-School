@@ -42,6 +42,8 @@ export const facilityKeys = [
   "auditorium",
 ] as const;
 
+export const galleryPreviewKeys = ["g1", "g2", "g3", "g4", "g5", "g6", "g7", "g8"] as const;
+
 export const campusGalleryKeys = ["g1", "g2", "g3", "g4", "g5", "g6"] as const;
 
 export const timelineKeys = ["2008", "2012", "2018", "2022", "2026"] as const;

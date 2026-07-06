@@ -10,6 +10,16 @@ export const imagePaths = {
     hero: "/images/home/hero-campus.png",
     principal: "/images/home/principal-kath.png",
     cambridge: "/images/home/cambridge.svg",
+    lifeAtAis: {
+      g1: "/images/home/life-at-ais/g1.jpeg",
+      g2: "/images/home/life-at-ais/g2.jpeg",
+      g3: "/images/home/life-at-ais/g3.jpeg",
+      g4: "/images/home/life-at-ais/g4.jpeg",
+      g5: "/images/home/life-at-ais/g5.jpeg",
+      g6: "/images/home/life-at-ais/g6.jpeg",
+      g7: "/images/home/life-at-ais/g7.jpeg",
+      g8: "/images/home/life-at-ais/g8.jpeg",
+    },
   },
   about: {
     placeholder: "/images/about/placeholder.svg",

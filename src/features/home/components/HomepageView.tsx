@@ -3,6 +3,7 @@ import { getTranslations } from "next-intl/server";
 import {
   ageBandHrefs,
   aisValueKeys,
+  galleryPreviewKeys,
   homepageSectionIds,
   pillarIcons,
   statKeys,
@@ -222,13 +223,14 @@ export async function HomepageView(): Promise<React.JSX.Element> {
             />
           </ScrollReveal>
           <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {(["g1", "g2", "g3", "g4"] as const).map((key) => (
+            {galleryPreviewKeys.map((key) => (
               <div key={key} className="relative aspect-[4/3] overflow-hidden rounded-lg">
                 <OptimizedImage
-                  src={imagePaths.about.placeholder}
+                  src={imagePaths.home.lifeAtAis[key]}
                   alt={t(`galleryPreview.${key}`)}
                   fill
                   sizes="(max-width:768px) 50vw, 25vw"
+                  className="object-cover"
                 />
               </div>
             ))}
