@@ -31,7 +31,7 @@ export function HeroVideo({ posterAlt, videoSrc, className }: HeroVideoProps): R
   const showVideo = Boolean(videoSrc) && !prefersReducedMotion;
 
   return (
-    <div className={cn("absolute inset-0", className)}>
+    <div className={cn("absolute inset-0 bg-primary-950", className)}>
       {showVideo ? (
         <video
           ref={videoRef}
@@ -40,7 +40,7 @@ export function HeroVideo({ posterAlt, videoSrc, className }: HeroVideoProps): R
           loop
           playsInline
           poster={imagePaths.home.hero}
-          className="hidden h-full w-full object-cover md:block"
+          className="hidden h-full w-full object-contain md:block"
           aria-hidden
         >
           <source src={videoSrc} type="video/mp4" />
@@ -52,7 +52,7 @@ export function HeroVideo({ posterAlt, videoSrc, className }: HeroVideoProps): R
         fill
         priority
         sizes="100vw"
-        className={cn(showVideo && "md:opacity-0")}
+        className={cn("object-contain", showVideo && "md:opacity-0")}
       />
     </div>
   );

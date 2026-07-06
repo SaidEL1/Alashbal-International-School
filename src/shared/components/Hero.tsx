@@ -57,14 +57,11 @@ export async function Hero({
 
   return (
     <section
-      className={cn(
-        "relative flex max-h-[100vh] min-h-[70vh] items-end md:min-h-[85vh]",
-        className,
-      )}
+      className={cn("relative flex max-h-[90vh] min-h-[58vh] items-end md:min-h-[68vh]", className)}
     >
       <HeroVideo posterAlt={posterAlt ?? t("imageAlt")} videoSrc={videoSrc} />
-      <div className="absolute inset-0 bg-gradient-to-t from-primary-950/90 via-primary-900/50 to-primary-900/20" />
-      <div className="relative mx-auto w-full max-w-container px-4 pb-16 pt-32 md:pb-24">
+      <div className="absolute inset-0 bg-gradient-to-t from-primary-950/95 via-primary-900/45 to-primary-900/10" />
+      <div className="relative mx-auto w-full max-w-container px-4 pb-12 pt-28 md:pb-20 md:pt-32">
         {subtitle ? (
           <p className="text-sm font-semibold uppercase tracking-widest text-secondary-400">
             {subtitle}
