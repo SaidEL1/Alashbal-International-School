@@ -52,7 +52,7 @@ export function FeatureCard({
       <CardContent>
         <CardDescription
           className={cn(
-            "text-base leading-relaxed",
+            "whitespace-pre-line text-base leading-relaxed",
             variant === "dark" ? "text-neutral-300" : "text-muted-foreground",
           )}
         >
