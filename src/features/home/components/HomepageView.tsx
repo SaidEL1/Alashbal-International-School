@@ -142,7 +142,7 @@ export async function HomepageView(): Promise<React.JSX.Element> {
       <section id={homepageSectionIds.cambridge}>
         <SplitSection
           media={
-            <div className="relative flex aspect-[4/3] items-center justify-center overflow-hidden rounded-xl border border-primary-800 bg-primary-900 p-6">
+            <div className="relative flex aspect-[4/3] items-center justify-center overflow-hidden rounded-xl border border-border bg-neutral-50 p-6">
               <OptimizedImage
                 src={imagePaths.home.cambridge}
                 alt={t("cambridge.imageAlt")}
