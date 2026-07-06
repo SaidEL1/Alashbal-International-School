@@ -9,7 +9,7 @@ export const imagePaths = {
   home: {
     hero: "/images/home/hero-campus.png",
     principal: "/images/home/principal-kath.png",
-    cambridge: "/images/home/cambridge.svg",
+    cambridge: "/images/home/cambridge-logo.png",
     lifeAtAis: {
       g1: "/images/home/life-at-ais/g1.jpeg",
       g2: "/images/home/life-at-ais/g2.jpeg",
