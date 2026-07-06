@@ -2,15 +2,15 @@
 
 import { useTranslations } from "next-intl";
 
+import { Link } from "@/i18n/navigation";
 import { DarkModeToggle } from "@/shared/components/DarkModeToggle";
 import { LanguageSwitcher } from "@/shared/components/LanguageSwitcher";
-import { SiteLogo } from "@/shared/components/SiteLogo";
 import { Button } from "@/ui/button";
-import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 
 import { MegaMenu } from "./MegaMenu";
 import { MobileDrawer } from "./MobileDrawer";
+import { SchoolLogo } from "@/shared/components/SchoolLogo";
 
 type NavbarProps = {
   className?: string;
@@ -29,8 +29,8 @@ export function Navbar({ className }: NavbarProps): React.JSX.Element {
       <div className="mx-auto flex h-16 max-w-container items-center justify-between gap-4 px-4 lg:h-[72px]">
         <div className="flex items-center gap-3">
           <MobileDrawer />
-          <SiteLogo className="hidden sm:flex" />
-          <SiteLogo className="sm:hidden" showText={false} />
+          <SchoolLogo className="hidden sm:flex" />
+          <SchoolLogo className="sm:hidden" showName={false} size="sm" />
         </div>
 
         <nav aria-label="Main" className="hidden flex-1 justify-center lg:flex">

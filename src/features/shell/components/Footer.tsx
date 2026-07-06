@@ -3,7 +3,7 @@ import { getTranslations } from "next-intl/server";
 import { footerColumns } from "@/config/navigation";
 import { siteConfig } from "@/config/site";
 import { Link } from "@/i18n/navigation";
-import { SiteLogo } from "@/shared/components/SiteLogo";
+import { SchoolLogo } from "@/shared/components/SchoolLogo";
 
 export async function Footer(): Promise<React.JSX.Element> {
   const t = await getTranslations();
@@ -12,11 +12,11 @@ export async function Footer(): Promise<React.JSX.Element> {
   return (
     <footer className="border-t border-border bg-neutral-50 dark:bg-neutral-950">
       <div className="mx-auto max-w-container px-4 py-12">
-        <div className="mb-10 flex flex-col gap-4 border-b border-border pb-10 sm:flex-row sm:items-center sm:justify-between">
-          <SiteLogo />
+        <div className="mb-10 flex flex-col gap-4 border-b border-border pb-8 sm:flex-row sm:items-center sm:justify-between">
+          <SchoolLogo size="lg" />
           <div className="text-sm text-muted-foreground">
-            <p className="font-semibold text-foreground">{t("footer.contact")}</p>
-            <p className="mt-1">{t("footer.address")}</p>
+            <p className="font-medium text-foreground">{t("footer.contactTitle")}</p>
+            <p className="mt-1">{siteConfig.address}</p>
             <a href={`mailto:${siteConfig.email}`} className="mt-1 block hover:text-foreground">
               {siteConfig.email}
             </a>
@@ -51,6 +51,7 @@ export async function Footer(): Promise<React.JSX.Element> {
           <p>
             © {year} {siteConfig.name}. {t("footer.rights")}
           </p>
+          <p>{t("footer.address")}</p>
         </div>
       </div>
     </footer>

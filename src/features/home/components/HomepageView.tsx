@@ -148,25 +148,33 @@ export async function HomepageView(): Promise<React.JSX.Element> {
 
       <section
         id={homepageSectionIds.principal}
-        className="bg-secondary-100 py-16 dark:bg-neutral-950 md:py-24"
+        className="bg-neutral-50 py-16 dark:bg-neutral-950 md:py-24"
       >
-        <div className="mx-auto max-w-container px-4">
+        <div className="mx-auto grid max-w-container items-center gap-10 px-4 lg:grid-cols-2 lg:gap-16">
           <ScrollReveal>
-            <div className="mx-auto max-w-4xl rounded-xl border border-secondary-300 bg-secondary-200/80 p-8 dark:border-primary-800 dark:bg-primary-950/40 md:p-12">
-              <SectionHeader
-                align="center"
-                title={t("principal.title")}
-                subtitle={t("principal.subtitle")}
+            <div className="relative mx-auto aspect-square max-w-sm overflow-hidden rounded-2xl border border-border bg-secondary-100 p-8 shadow-elevation2 dark:bg-primary-900/30">
+              <OptimizedImage
+                src={imagePaths.brand.logo}
+                alt={t("principal.imageAlt")}
+                fill
+                sizes="(max-width:1024px) 80vw, 400px"
+                className="object-contain p-6"
               />
-              <p className="mt-6 text-center font-display text-xl font-semibold text-primary-900 dark:text-neutral-50">
-                {t("principal.welcome")}
-              </p>
-              <p className="mt-6 leading-relaxed text-foreground">{t("principal.quote")}</p>
-              <p className="mt-4 leading-relaxed text-foreground">{t("principal.body")}</p>
-              <p className="mt-6 text-sm font-medium text-muted-foreground">
-                {t("principal.name")}
-              </p>
             </div>
+          </ScrollReveal>
+          <ScrollReveal delay={0.1}>
+            <SectionHeader
+              align="start"
+              title={t("principal.title")}
+              subtitle={t("principal.subtitle")}
+            />
+            <div className="mt-6 space-y-4 text-base leading-relaxed text-muted-foreground">
+              <p>{t("principal.intro")}</p>
+              <p>{t("principal.body")}</p>
+            </div>
+            <p className="mt-6 text-sm font-medium text-primary-900 dark:text-neutral-50">
+              {t("principal.name")}
+            </p>
           </ScrollReveal>
         </div>
       </section>

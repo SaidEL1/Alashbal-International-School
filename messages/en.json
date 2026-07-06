@@ -48,7 +48,6 @@
     "highSchool": "High School",
     "cambridgePathway": "Cambridge Pathway",
     "stem": "STEM",
-    "aiRobotics": "AI & Robotics",
     "languages": "Languages",
     "howToApply": "How to Apply",
     "tuitionFees": "Tuition & Fees",
@@ -72,7 +71,7 @@
     "terms": "Terms of Use",
     "rights": "All rights reserved.",
     "address": "Old Airport Area along E-ring Road, Doha, Qatar",
-    "contact": "Contact Us"
+    "contactTitle": "Contact Us"
   },
   "trust": {
     "ariaLabel": "Accreditations and quality assurance partners",
@@ -122,7 +121,7 @@
         },
         "2": {
           "title": "Innovation & STEM",
-          "description": "Future-ready learning through coding, science, and enquiry-based projects that connect classroom knowledge to real-world challenges."
+          "description": "Future-ready learning through science, technology, coding, and enquiry-based projects that connect classroom knowledge to real-world challenges."
         },
         "3": {
           "title": "Wellbeing & Character",
@@ -169,13 +168,11 @@
     },
     "principal": {
       "title": "Welcome Message",
-      "subtitle": "From our founding School Administrator",
-      "welcome": "Welcome to Alashbal International School!",
-      "quote": "It is with great pleasure and pride that I extend a warm welcome to you all to our vibrant and dynamic learning community at Alashbal International School (AIS). As the founding School Administrator, I am honoured to lead an institution dedicated to excellence in education, fostering a nurturing environment, and empowering every student to reach their full potential.",
-      "body": "At AIS, we are committed to deliver a premium quality education that nurtures the intelligence, talents, and skills of every student as a solid foundation for future life.",
+      "subtitle": "Welcome to Alashbal International School!",
+      "intro": "It is with great pleasure and pride that I extend a warm welcome to you all to our vibrant and dynamic learning community at Alashbal International School (AIS).",
+      "body": "As the founding School Administrator, I am honoured to lead an institution dedicated to excellence in education, fostering a nurturing environment, and empowering every student to reach their full potential. At AIS, we are committed to delivering premium quality education that nurtures the intelligence, talents, and skills of every learner—building a solid foundation for lifelong success.",
       "name": "School Administrator, Alashbal International School",
-      "videoTitle": "Welcome message from the School Administrator",
-      "imageAlt": "School Administrator of Alashbal International School welcoming families to AIS Doha"
+      "imageAlt": "Alashbal International School logo"
     },
     "stats": {
       "years": {
@@ -227,8 +224,8 @@
     "stem": {
       "title": "Innovation Through STEM",
       "subtitle": "Future-ready learning from Early Years to A Level",
-      "body": "At AIS Doha, STEM is woven into every stage of the Cambridge pathway. Our dedicated Innovation Hub and enquiry-led projects help students think critically, solve real problems, and develop the digital fluency demanded by top universities and employers worldwide.",
-      "imageAlt": "Students programming robots and conducting science experiments in the AIS Doha Innovation Hub",
+      "body": "At AIS Doha, STEM is woven into every stage of the Cambridge pathway. Our science laboratories, Innovation Hub, and enquiry-led projects help students think critically, solve real problems, and develop the skills demanded by top universities and employers worldwide.",
+      "imageAlt": "Students engaged in science and technology learning at AIS Doha",
       "cta": "Explore STEM Programmes"
     },
     "galleryPreview": {
@@ -262,7 +259,7 @@
         },
         "2022": {
           "title": "Innovation Hub Launch",
-          "description": "Opening of STEM and AI/Robotics facilities, embedding future-ready skills across the curriculum."
+          "description": "Opening of the Innovation Hub and expanded science facilities, embedding future-ready skills across the curriculum."
         },
         "2026": {
           "title": "Looking Ahead",
@@ -469,7 +466,7 @@
       "beyondAcademics": {
         "stem": {
           "title": "STEM & Innovation",
-          "description": "Robotics, coding, science fairs, and design challenges that bring classroom concepts to life and inspire the next generation of innovators."
+          "description": "Science fairs, coding, and design challenges that bring classroom concepts to life and inspire the next generation of innovators."
         },
         "languages": {
           "title": "Languages & Culture",
@@ -835,16 +832,16 @@
     "stem": {
       "title": "STEM",
       "lead": "Inspiring curiosity, creativity, and problem-solving through science, technology, engineering, and mathematics.",
-      "metaDescription": "STEM at AIS Doha—coding, science fairs, and innovation projects integrated across the Cambridge curriculum in Doha, Qatar.",
-      "overview": "STEM education at AIS Doha goes beyond the textbook. From Early Years coding activities to A Level science projects, students engage in hands-on learning that connects classroom theory to real-world challenges. Our Innovation Hub, science laboratories, and specialist STEM teachers ensure every learner develops the analytical and digital skills the future demands.",
+      "metaDescription": "STEM at AIS Doha—science fairs, coding, and innovation projects integrated across the Cambridge curriculum in Doha, Qatar.",
+      "overview": "STEM education at AIS Doha goes beyond the textbook. From Early Years exploration to A Level investigations, students engage in hands-on projects that connect classroom theory to real-world challenges. Our Innovation Hub, science laboratories, and specialist STEM teachers ensure every learner develops analytical and problem-solving skills for the future.",
       "competitions": {
         "c1": {
           "title": "AIS Science & Engineering Fair",
           "description": "Annual school-wide exhibition where students present original research and design projects to judges and the community."
         },
         "c2": {
-          "title": "STEM Innovation Challenge",
-          "description": "Cross-phase design and problem-solving competitions where students apply science, technology, and mathematics to real challenges."
+          "title": "Coding & Digital Innovation",
+          "description": "Cross-curricular coding challenges and digital projects from Primary through High School, building computational thinking and creativity."
         },
         "c3": {
           "title": "International Maths & Science Olympiads",
@@ -852,45 +849,16 @@
         }
       },
       "gallery": {
-        "g1": "Students collaborating on a science project in the Innovation Hub",
+        "g1": "Students conducting a science experiment in the laboratory",
         "g2": "Chemistry experiment with safety equipment in the lab",
         "g3": "Primary children coding with classroom tablets",
         "g4": "Engineering design challenge with student prototypes",
         "g5": "Science fair presentation to visiting judges",
-        "g6": "3D printing project in the design technology workshop"
+        "g6": "Design technology project in the workshop"
       },
       "cta": {
         "title": "See STEM in Action",
         "primary": "Book a Tour"
-      }
-    },
-    "aiRobotics": {
-      "title": "AI & Robotics",
-      "lead": "Preparing students for an AI-driven world through coding, robotics, and computational thinking.",
-      "metaDescription": "AI and Robotics at AIS Doha—coding, machine learning foundations, and robotics programmes from Primary to A Level in Doha, Qatar.",
-      "overview": "Our AI & Robotics programme equips students with the skills to understand, create, and responsibly use emerging technologies. Dedicated computing labs, a robotics arena, and partnerships with industry mentors provide authentic learning experiences—from block-based coding in Primary to Python, machine learning concepts, and autonomous robot design in High School.",
-      "programs": {
-        "p1": {
-          "title": "Primary Coding & Robotics",
-          "description": "Block-based programming, Bee-Bots, and LEGO WeDo projects that introduce computational thinking through play."
-        },
-        "p2": {
-          "title": "Middle School Robotics Lab",
-          "description": "LEGO Mindstorms and micro:bit projects developing engineering design, sensors, and team-based problem solving."
-        },
-        "p3": {
-          "title": "High School AI Foundations",
-          "description": "Python programming, data analysis, and introductions to machine learning ethics and applications."
-        },
-        "p4": {
-          "title": "Competitive Robotics Teams",
-          "description": "After-school VEX and FLL teams competing regionally with mentorship from STEM faculty and industry partners."
-        }
-      },
-      "videoTitle": "Tour the AIS Doha Robotics & AI Lab",
-      "cta": {
-        "title": "Discover Our Innovation Programmes",
-        "primary": "Inquire Now"
       }
     },
     "languages": {
@@ -951,7 +919,7 @@
         "g1": "International Day parade with flags and traditional dress",
         "g2": "Students performing in the annual school musical",
         "g3": "Football team celebrating a tournament victory",
-        "g4": "Robotics club preparing for a regional competition",
+        "g4": "STEM club students collaborating on a science project",
         "g5": "Art exhibition opening in the creative arts studio",
         "g6": "Community service project with students volunteering locally"
       },
@@ -966,9 +934,9 @@
       "metaDescription": "Clubs and activities at AIS Doha—STEM, arts, languages, debate, and more for students from Primary to High School in Doha.",
       "clubs": {
         "c1": {
-          "name": "Robotics Club",
+          "name": "Science Club",
           "ages": "Ages 8–18",
-          "description": "Design, build, and programme robots for school and regional competitions."
+          "description": "Hands-on experiments, science fair projects, and enquiry-led investigations beyond the classroom."
         },
         "c2": {
           "name": "Coding Club",
